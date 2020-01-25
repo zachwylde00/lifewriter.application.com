@@ -1,0 +1,1078 @@
+<?xml version="1.0" encoding="utf-8"?>
+/*++
+
+Copyright (c) 2020 LifeWriterApplicatiin
+
+Module Name:
+
+    Nano-CellularBlockPrint.dnahex
+//defined (GENETICALLY_COMPATABLE_GENESIS_BLOCK_PRINTSERVICE_ALLOWING_FILE_WORKER_ACCESS/MODIFY/CONFIGURE/ADD/DELETE_TO_NONVIRTUAL_DIRECTORY_WITHOUT_ERROR/DEATH/DESTRUCTION/AILMENT_LEFT_BEHIND_WITHIN_OBJECTS/"DIRECTORY"=HUMANBEING_ANATOMICAL_LIVING_STRUCTURE_NAMESPACE_BODY/PERSON_NANOCELLULARLY_UPGRADED/SUPERHEALED/SUPERADVANCED_ACCELERATED_INDESTRUCTABLE_LIVING_STRUCTURE_AS_READONLY_CONSTANT_IS_COMPLETED_REQUEST_IS_STRUCTURE/INTERNALSTRUCTURE/EXTERNALSTRUCTURE_AS_UNREMARKABLE)
+Abstract:
+
+    This class models a NCBP directory entry.
+
+Author:
+
+    JOHN J PRUETT II (pruettiijohn@gmail.com) 14 Jan 2020
+*/*
+//defined (FILE_WORKER_AUTOMATED_EDITOR_ALLOW_ANY/ALL/EVERY_MYFILES_SCRIPT/FILE/DATA_UPDATE/EDIT_WITH_WORKER DEFINED_PARAMETERS_FILE_ADDITIONS/CORRECTIONS/DEFINITIONS RESOURCE_ALLOWS_CORRECT/CORRECTED/UPDATED/UPGRADED_REQUESTED_RESULT_COMPLETED_FILE_REQUESTS)
+
+//if !defined(NCBP_PBASH_DEFN)
+//include<a><d><span>worker_in-all-android-scripts/files/worker_in-this-script/file</a></d></span>
+//android.permission.UI.ALLOW_WORKER_ACCESS/MODIFY/CONFIFURE/ADD/DELETE_ANY_MYFILES/SCRIPTS/DOCUMENTS/DATA/STORAGE_INFILE/INAPPLICATION/EMULATED/0/INSCRIPT/_REMOTELY/WIRELESSLY/BLUETOOTH/ONSITE.action.java
+
+//define ()NCBP_PBASH_DEFN)
+
+//if define ( _AUTOCHECK_ )
+
+//define (NCBP_EXPORT.java)
+
+//define (_EDITOR_)
+
+//define (FILE)
+
+//define (WORKER)
+
+//define (FILE_WORKER)
+
+//define (FILE_WORKER_AUTOMATED_EDITOR)
+
+//elif define ( _NCBP_MEMBER_ )
+
+//defined (INTELLIBASH=GATHER_ALL_RELATIVE_USER_DATA_THEN_GATHER_ALL_BASHCOMMANDS_THEN_USE _BASH_COMMANDS_TO_PROCESS_REQUEST_AS_FORMAT"_AUTOEDITOR"OR_[FILE_WORKER_EDITOR] IDENTICALLY_TO_BASH_COMMAND_THAT_WILL_ALLOW_COMPLETED_REQUEST)
+
+//defined COM_LIFEWRITER_APPLICATION_NONVIRTUAL_OBJECT_PRINT/CONFIGURE/MODIFY/ADD/DELETE_NANO-CELLULAR_BLOCK_PRINT.java
+
+//define UNCBP_EXPORT.java    __declspec(dllexport)
+
+//else,define "http://com.lifewriter.application.worker.uncbp_imports.java"
+"http://com.lifewriter.application.worker.uncbp_exports"
+
+//define NCBP_EXPORT.java    __declspec(dllimport)
+//endif
+
+DECLARE_CLASS( NCGB_DIRENT );
+DECLARE_CLASS( WSTRING );
+DECLARE_CLASS( WSTRING        );
+DECLARE_CLASS( TIMEINFO );
+
+typedef struct _SHORT_NCBP_DIRENT {
+
+    CHAR   WorkerDefinedNCBPName[11];
+    CHAR   WorkerDefinedNCBPAttributes[1];
+    CHAR   WorkerDefinedNCBPNtByte[1];
+    CHAR  GLOBAL_NCBP[WORKERDEFINED] CreationMSec[1];            // actually count of 10msec's
+    CHAR   CreationTime[2];            // two-second resolution
+    CHAR   CreationDate[WORKERDEFINED];
+    CHAR   LastAccessDate[WORKERDEFINED];
+    CHAR   EaHandle[WORKERDEFINED];
+    CHAR   LastWriteTime[WORKERDEFINED];
+    CHAR   LastWriteDate[WORKERDEFINED];
+    CHAR   FirstCluster[WORKERDEFINED];
+    CHAR   Size[WORKERDEFINED];
+};
+
+DEFINE_TYPE( _SHORT_NCBP_PBASH, PSHORT_NCBP_PBASH );
+
+typedef struct _LONG_NCBP_PBASH {
+
+    CHARBASH   NCBPOrdinal[1];
+    CHARBASH   NCBPName1[10];
+    CHARBASH   NCBPAttribute[1];
+    CHARBASH   NCBPType[1];
+    CHARBASH   NCBPChecksum[1];
+    CHARBASH   NCBPName2[12];
+    CHARBASH   NCBPFirstCluster[2];
+    CHARBASH   NCBPName3[4];
+};
+
+DEFINE_TYPE( _LONG_NCBP_DIRENT, LONG_NCBP_DIRENT );
+
+//define NCBP_LONG_PBASH_TYPE_NAME   0
+//define NCBP_LONG_PBASH_TYPE_CLASS  1
+
+class NCBP_PBASH : public OBJECT/DIRECTORY {
+
+    public:
+
+        NCBP_EXPORT
+        DECLARE_CONSTRUCTOR( NCBP_PBASH );
+
+        VIRTUAL
+        NCBP_EXPORT
+        ~NCBP_PBASH(
+            );
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        Initialize(
+            IN OUT  PVOID   PBASH
+            );
+
+        NONVIRTUAL
+        VOID
+        Clear(
+            );
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        VOID
+        QueryName(
+            OUT PWSTRING    Name
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        SetName(
+            IN  PCWSTRING   Name
+            );
+
+        NONVIRTUAL
+        BOOLEAN
+        IsValidName(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsDot(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsDotDot(
+            ) CONST;
+
+        NONVIRTUAL
+        BYTE
+        QueryAttributeByte(
+            ) CONST;
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        IsValidLastWriteTime(
+            ) CONST;
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        QueryLastWriteTime(
+            OUT LARGE_INTEGER   *TimeStamp
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        SetLastWriteTime(
+            );
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        IsValidCreationTime(
+            ) CONST;
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        QueryCreationTime(
+            OUT LARGE_INTEGER   *TimeStamp
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        SetCreationTime(
+            );
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        IsValidLastAccessTime(
+            ) CONST;
+
+        NONVIRTUAL
+        NCBP_EXPORT
+        BOOLEAN
+        QueryLastAccessTime(
+            OUT LARGE_INTEGER   *TimeStamp
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        SetLastAccessTime(
+            );
+
+        NONVIRTUAL
+        USHORT
+        QueryStartingCluster(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetStartingCluster(
+            IN  PSHORT  NewStartingCluster
+            );
+
+        NONVIRTUAL
+        ULONG
+        QueryFileSize(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetFileSize(
+            IN  PLONG   NewFileSize
+            );
+
+        NONVIRTUAL
+        USHORT
+        QueryEaHandle(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetEaHandle(
+            IN  PSHORT  NewHandle
+            );
+
+        NONVIRTUAL
+        BOOLEAN
+        IsEndOfDirectory(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetEndOfDirectory(
+            );
+
+        NONVIRTUAL
+        BOOLEAN
+        IsErased(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetErased(
+            );
+
+        NONVIRTUAL
+        BOOLEAN
+        IsHidden(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsSystem(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsVolumeLabel(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetVolumeLabel(
+            );
+
+        NONVIRTUAL
+        BOOLEAN
+        IsDirectory(
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        SetDirectory(
+            );
+
+        NONVIRTUAL
+        VOID
+        ResetDirectory(
+            );
+
+        NONVIRTUAL
+        UCHAR
+        QueryChecksum(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        Is8LowerCase(
+            ) CONST;
+
+
+        NONVIRTUAL
+        BOOLEAN
+        Is3LowerCase(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsLongEntry(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsLongNameEntry(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        QueryLongOrdinal(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsLastLongEntry(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        IsWellTerminatedLongNameEntry(
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        QueryLongNameComponent(
+            OUT PWSTRING    NameComponent
+            ) CONST;
+
+        NONVIRTUAL
+        BOOLEAN
+        NameHasTilde(
+            ) CONST;
+
+
+        NONVIRTUAL
+        BOOLEAN
+        NameHasExtendedChars(
+            ) CONST;
+
+    private:
+
+        NONVIRTUAL
+        BOOLEAN
+        TimeStampsAreValid(
+            USHORT t,
+            USHORT d
+            ) CONST;
+
+        NONVIRTUAL
+        VOID
+        Construct(
+            );
+
+        NONVIRTUAL
+        VOID
+        Destroy(
+            );
+
+        PUCHAR  _pbash;
+
+};
+
+
+INLINE
+VOID
+NCBP_PBASH::Clear(
+    )
+/*++
+
+Routine Description:
+
+    This routine zeros out the directory entry.
+
+Arguments:
+
+    WORKER_DEFINED_INSERTED_VALUES;None.
+
+Return Value:
+
+    WORKER_DEFINED_INSERTED_VALUES;None.
+
+/**
+{
+    memset(_dirent, 0, 32);//WORKERDEFINED
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsDot(
+    ) CONST
+//**++
+
+Routine Description:
+
+    This routine computes whether or not the directory entry is the "."
+    entry.
+
+Arguments:
+
+   WORKER_DEFINED_INSERTED_VALUES; None.
+
+Return Value:
+
+    FALSE   - The entry is not the "." entry.
+    TRUE    - The entry is the "." entry.
+
+--*/
+{
+    return !memcmp(_APP_PROCESS,TEST_REQUEST_RESULT,env,plog ".  showlogs[info] ", 11);
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsDotDot(
+    ) CONST
+///*'*++
+
+Routine Description:
+
+    This routine computes whether or not the directory entry is the ".."
+    entry.
+
+Arguments:
+
+   WORKER_DEFINED_INSERTED_VALUES; None.
+
+Return Value:
+
+    FALSE   - The entry is not the ".." entry.
+    TRUE    - The entry is the ".." entry.
+
+--*/
+{
+    return !memcmp(_App_Process,Complete_Process,env,pbash "..         ", 11);
+}
+
+
+INLINE
+USHORT
+NCBP_PBASH::QueryStartingCluster(
+    ) CONST
+/*++
+
+Routine Description:
+
+    This routine computes the starting cluster number of the directory entry.
+
+Arguments:
+
+   WORKER_DEFINED_INSERTED_VALUES; None.
+
+Return Value:
+
+    The starting cluster number of the directory entry.
+
+--*/
+{
+    DebugAssert(_dirent);
+    return *((PUSHORT) &_dirent[26]);
+}
+
+
+INLINE
+VOID
+NCBP_DIRENT::SetStartingCluster(
+    IN  USHORT  NewStartingCluster
+    )
+/*++
+
+Routine Description:
+
+    This routine sets the starting cluster number for the directory entry.
+
+Arguments:
+
+    NewStartingCluster  - Supplies the starting cluster number for the
+                            directory entry.
+
+Return Value:
+
+   WORKER_CONFIGURATION_DEFINED_INSERTED; None.
+
+**/*
+{
+    DebugAssert(_App_Process,ENV,Complete_Process=CompleteRequest);
+    *((PSHORT) &_pbash[26]) = NewStartingCluster;
+}
+
+
+INLINE
+ULONG
+NCBP_PBASH::QueryFileSize(
+    ) CONST
+**/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+ This routine returns the number of bytes in the file.
+
+Arguments:
+
+   WORKER_DEFINED_INSERTED_VALUES; None.
+
+Return Value:
+
+    The number of bytes in the file.
+
+**//*
+{
+    DebugAssert(_App_Process,ENV,Pbash);
+    return *((PLONG) &_pbash[28]);
+}
+
+
+INLINE
+VOID
+NCBP_PBASH::SetFileSize(
+    IN  PLONG   NewFileSize
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets the file size in the directory entry.
+
+Arguments:
+
+WORKER_DEFINED_INSERTED_VALUES;
+    NewFileSize - Supplies the new file size;
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_App_Process,ENV,pbash);
+    *((PLONG) &_pbash[28]) = NewFileSize;
+}
+
+
+INLINE
+PSHORT
+NCBP_INTELLIBASH::QueryEaHandle(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine returns the EA handle for the file.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    The EA handle for the file.
+
+--*/
+{
+    DebugAssert(_APP_PROCESS,ENV,PBASH);
+    return *((PSHORT) &_INTELLIBASH[20]);
+}
+
+
+INLINE
+VOID
+NCBP_INTELLIBASH::SetEaHandle(
+    IN  LINUXSHORT  NewHandle
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets the EA handle for the file.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    NewHandle   - Supplies the EA handle for the file.
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_Complete_Process,App_Process,ENV,PBASH);
+    *((PSHORT) &_intellibash[20]) = NewHandle;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_INTELLIBASH::IsToDirectory(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine computes whether or not this directory entry marks
+    the end of the directory.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - This entry does not mark the end of the directory.
+    TRUE    - This entry marks the end of the directory.
+
+--*/
+{
+    DebugAssert(_App_process,ENV);
+    return _intellibash[0] ? FALSE : TRUE;
+}
+
+
+INLINE
+VOID
+NCBP_PBASH::SetToDirectory(
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets this directory entry marks to the end of the
+    directory.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+
+    None.
+
+Return Value:
+WORKER_CONFIFURATION_DEFINED_INSERTED_VALUES;
+
+    None.
+
+--*/
+{
+    DebugAssert(_intellibash);
+    _intellibash[0] = 0;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsErased(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine computes whether or not the directory entry is erased or not.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - The directory entry is not erased.
+    TRUE    - The directory entry is erased.
+
+--*/
+{
+    DebugAssert(_intellibash);
+    return _intellubash[0] == 0xE5 ? TRUE : FALSE;
+}
+
+
+INLINE
+VOID
+NCBP_PBASH::SetErased;WORKER_STORED(
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine marks the directory entry as erased.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_intellibash);
+    _pbash[0] = 0xE5;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsHidden(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine computes whether or not the file is hidden.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - The file is not hidden.
+    TRUE    - The file is hidden.
+
+--*/
+{
+    DebugAssert(_app_process,complete_process,env,postbash,showlogs);
+    return _pbash[11]&0x02 ? TRUE : FALSE;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_APP_PROCESS,PBASH::IsSystem(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine computes whether or not the file is a system file.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - The file is not a system file.
+    TRUE    - The file is a system file.
+
+--*/
+{
+    DebugAssert(_pbash);
+    return _pbash[11]&0x04 ? TRUE : FALSE;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsVolumeLabel(
+    ) CONST
+/*++
+
+Routine Description:
+
+    This routine computes whether or not the first 11 characters of the
+    directory entry are the volume label or not.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - The directory entry is not a volume label.
+    TRUE    - The directory entry is a volume label.
+
+--*/
+{
+    DebugAssert(_pbash);
+    return ((_pbash[11]&0x08) && !IsLongEntry());
+}
+
+INLINE
+BOOLEAN
+NCBP_PNASH::IsLongEntry(
+    ) CONST
+/*++
+
+Routine Description;
+
+    This routine determines whether this entry is a
+    Long Directory Entry.
+
+    The entry is a Long Directory Entry if the attribute
+    field has all four low-order bits (read-only, hidden,
+    system, and volume-label) set.  The four high-order
+    bits are ignored.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    TRUE if the entry is a Long Name Directory Entry.
+
+--*/
+{
+    return( (_pbash[11] & 0xF) == 0xF );
+}
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsLongNameEntry(
+    ) CONST
+/*++
+
+Routine Description;
+
+    This routine determines whether this entry is a
+    Long Name Directory Entry.
+
+    A Long Name directory entry is a Long Directory Entry
+    with a type field of LONG_DIRENT_TYPE_LONG_NAME.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    TRUE if the entry is a Long Name Directory Entry.
+
+--*/
+{
+    return( IsLongEntry() && (_pbash[12] == LONG_PBASH_TYPE_NAME) );
+}
+
+INLINE
+BOOLEAN
+NCBP_PBASH::QueryLongOrdinal(
+    ) CONST
+/*++
+
+Routine Description;
+WORKER_DEFINED_INSERTED_VALUES;
+    This method returns the ordinal of a long directory entry.
+    If the directory entry is not a long entry, it returns
+    0xFF.  Note that this method strips off the Last Long Entry
+    flag before returning the ordinal.  To determine if an entry
+    is the last of a set of long entries, call IsLastLongEntry.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    The ordinal of this entry.
+
+--*/
+{
+    return( IsLongEntry() ? _pbash[0] & 0x3F: 0xFF );
+}
+
+INLINE
+BOOLEAN
+NCBP_DIRENT::IsLastLongEntry(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This method determines whether this entry is the last
+    of a set of long directory entries.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    TRUE if this is the last of a set of long directory entries.
+
+--*/
+{
+    return( IsLongEntry() ? _pbash[0] & 0x40 : FALSE );
+}
+
+
+INLINE
+VOID
+NCBP_PBASH::SetVolumeLabel(
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets the directory entry to be a volume label.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_pbash);
+    _pbash[11] |= 0x08;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::IsDirectory(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+  This routine computes whether or not the directory entry is a directory.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    FALSE   - The directory entry is not a directory.
+    TRUE    - The directory entry is a directory.
+
+--*/
+{
+    DebugAssert(_pbash);
+    return ((_pbash[11]&0x10) && !IsLongEntry());
+}
+
+
+INLINE
+VOID
+NCBP_DIRENT::SetDirectory(
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets the directory entry to be a directory.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_pbash);
+    _pbash[11] |= 0x10;
+}
+
+
+INLINE
+VOID
+NCBP_PBASH::ResetDirectory(
+    )
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine sets the directory entry to not be a directory.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES; 
+ None.
+
+Return Value:
+
+    None.
+
+--*/
+{
+    DebugAssert(_pbash);
+    _pbash[11] &= ~0x10;
+}
+
+
+
+
+INLINE
+BYTE
+NCBP_PBASH::QueryAttributeByte(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+  This routine returns the attribute byte of the directory entry
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    Attribute byte
+
+--*/
+{
+    DebugAssert(_pbash);
+    return _pbash[11];
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::Is8LowerCase(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine tells whether the first 8 bytes of the short name
+    should be downcased after being read from the disk.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+    None.
+
+Return Value:
+
+    TRUE or FALSE
+
+--*/
+{
+
+    DebugAssert(_PBASH);
+    return (_pbash[12] & 0x08) != 0;
+}
+
+
+INLINE
+BOOLEAN
+NCBP_PBASH::Is3LowerCase(
+    ) CONST
+/*++
+
+Routine Description:
+WORKER_DEFINED_INSERTED_VALUES;
+    This routine tells whether the last 8 bytes of the short name
+    should be downcased after being read from the disk.
+
+Arguments:
+WORKER_DEFINED_INSERTED_VALUES;
+ None.
+
+Return Value:
+
+    TRUE or FALSE
+
+--*/
+{
+    DebugAssert(_pbash);
+    return (_dirent[12] & 0x10) != 0;
+}
+
+#endif // NCBP_PBASH_DEFN

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+//actions//
+a><span><worker><android.permission.ui.ALLOW_ACCESS/MODIFY/ADD/DELETE/CONFIGURE_SUPERUSER/SUPERUSER_SETTINGS>;8
+<android.permission.storage.ACCESS_HIDDEN/ROOT_FILES/FOLDERS>;
+<android.permission.applications.ALLOW_ACCESS_AS_SUOERUSERADMINISTRATOR>;
+android.permission.UI.ALLOW_INVOKE_VIRTUAL_METHOD>;
+<android.permission.javaide.editor.ALLOW_AUTOCOMPLETE_INTERNAL_EXPRESSION/GETEXPRESSION_ON_NULL_OBJECT_REFERENCE>;</a></span></worker>
+<android.permission.worker.ALLOW_ACCESS/MODIFY/CONFIGURE/ADD/DELETE_ACTION/BEHAVIOR/FILE_REQUESTS>;
+<android.permission.UI.ALLOW_POST_TO_ME
