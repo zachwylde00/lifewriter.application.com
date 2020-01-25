@@ -1,0 +1,506 @@
+build.board: sdm845
+build.bootloader: 1.0.0.0000
+build.brand: htc
+build.cpu_abi: arm64-v8a
+build.cpu_abi2: 
+build.device: htc_exouhl
+build.display: PQ2A.190205.003 release-keys
+build.fingerprint: htc/exouhl_00617/htc_exouhl:9/PQ2A.190205.003/1098394.3:user/release-keys
+build.hardware: htc_exo
+build.host: ABM122
+build.id: PQ2A.190205.003
+build.manufacturer: HTC
+build.model: EXODUS 1
+build.product: exouhl_00617
+build.radio: unknown
+build.serial: unknown
+build.tags: release-keys
+build.time: 1573463508000
+build.type: user
+build.user: buildteam
+version.codename: REL
+version.incremental: 1098394.3
+version.release: 9
+version.sdk_int: 28
+
+--------- beginning of system
+01-24 19:32:34.868 W/ViewRootImpl[LogcatActivity](23900): Dropping event due to root view being removed: MotionEvent { action=ACTION_UP, actionButton=0, id[0]=1, x[0]=-65.0, y[0]=284.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=1823702, downTime=1820015, deviceId=10, source=0x1002 }
+01-24 20:05:16.745 I/menu_item_selected(742): [0,Clear]
+01-24 20:05:18.862 I/am_on_paused_called(742): [0,com.pluscubed.logcat.ui.LogcatActivity,performPause]
+01-24 20:05:18.900 I/am_on_restart_called(742): [0,com.duy.ide.javaide.JavaIdeActivity,performRestartActivity]
+01-24 21:19:54.778 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 20:05:18.903 I/am_on_start_called(742): [0,com.duy.ide.javaide.JavaIdeActivity,handleStartActivity]
+01-24 20:05:18.906 I/am_on_resume_called(742): [0,com.duy.ide.javaide.JavaIdeActivity,RESUME_ACTIVITY]
+01-24 20:05:19.466 I/am_on_stop_called(742): [0,com.pluscubed.logcat.ui.LogcatActivity,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:23:18.554 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:25:40.684 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 20:05:19.469 I/am_on_destroy_called(742): [0,com.pluscubed.logcat.ui.LogcatActivity,performDestroy]
+01-24 21:25:40.686 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 20:05:20.424 I/am_on_paused_called(742): [0,com.duy.ide.javaide.JavaIdeActivity,performPause]
+01-24 21:25:40.688 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 20:05:20.461 I/am_on_stop_called(742): [0,com.duy.ide.javaide.JavaIdeActivity,STOP_ACTIVITY_ITEM]
+01-24 21:25:40.730 D/androidtc(27518): Loading ModelFile { path=/data/misc/textclassifier/textclassifier.model name=textclassifier.model version=609 locales=en }
+01-24 20:05:23.162 I/am_on_destroy_called(742): [0,fantasticappsstore.apkeditor.MainActivity,performDestroy]
+01-24 21:25:42.924 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:22.179 I/binder_sample(27518): [android.app.IActivityManager,14,16,<pre-initialized>,3]
+01-24 21:11:22.490 I/am_on_create_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,performCreate]
+01-24 21:11:22.491 I/am_on_start_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,handleStartActivity]
+01-24 21:25:42.926 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:22.492 I/am_on_resume_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,RESUME_ACTIVITY]
+01-24 21:25:44.649 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:22.550 I/binder_sample(27518): [android.view.IWindowSession,6,6,fantasticappsstore.apkeditor,1]
+01-24 21:25:44.653 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:28.542 I/am_on_paused_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,performPause]
+01-24 21:25:49.116 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:28.576 I/am_on_create_called(27518): [0,com.google.android.gms.ads.AdActivity,performCreate]
+01-24 21:25:50.469 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:28.578 I/am_on_start_called(27518): [0,com.google.android.gms.ads.AdActivity,handleStartActivity]
+01-24 21:25:51.690 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:28.579 I/am_on_resume_called(27518): [0,com.google.android.gms.ads.AdActivity,RESUME_ACTIVITY]
+01-24 21:25:53.541 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.132 I/binder_sample(27518): [android.app.IActivityManager,10,5,fantasticappsstore.apkeditor,1]
+01-24 21:29:36.732 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.179 I/am_on_paused_called(27518): [0,com.google.android.gms.ads.AdActivity,performPause]
+01-24 21:29:36.734 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.237 I/am_on_create_called(27518): [0,fantasticappsstore.apkeditor.MainActivity,performCreate]
+01-24 21:29:36.735 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.238 I/am_on_start_called(27518): [0,fantasticappsstore.apkeditor.MainActivity,handleStartActivity]
+01-24 21:29:39.038 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.238 I/am_on_resume_called(27518): [0,fantasticappsstore.apkeditor.MainActivity,RESUME_ACTIVITY]
+01-24 21:29:39.040 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.829 I/am_on_stop_called(27518): [0,com.google.android.gms.ads.AdActivity,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:29:46.252 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.829 I/am_on_destroy_called(27518): [0,com.google.android.gms.ads.AdActivity,performDestroy]
+01-24 21:29:46.254 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.839 I/am_on_stop_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:29:46.256 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:30.839 I/am_on_destroy_called(27518): [0,fantasticappsstore.apkeditor.Splash_Screen,performDestroy]
+01-24 21:29:48.509 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:31.484 I/am_on_paused_called(27518): [0,fantasticappsstore.apkeditor.MainActivity,performPause]
+01-24 21:29:48.510 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:31.512 I/am_on_create_called(27518): [0,com.google.android.gms.ads.AdActivity,performCreate]
+01-24 21:30:29.531 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:31.513 I/am_on_start_called(27518): [0,com.google.android.gms.ads.AdActivity,handleStartActivity]
+01-24 21:30:30.439 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:31.514 I/am_on_resume_called(27518): [0,com.google.android.gms.ads.AdActivity,RESUME_ACTIVITY]
+01-24 21:33:52.085 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.289 I/am_on_paused_called(27518): [0,com.google.android.gms.ads.AdActivity,performPause]
+01-24 21:11:34.347 I/am_on_create_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,performCreate]
+01-24 21:33:52.086 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.349 I/am_on_start_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,handleStartActivity]
+01-24 21:33:52.088 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.351 I/am_on_resume_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,RESUME_ACTIVITY]
+01-24 21:33:58.510 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.765 I/am_on_paused_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,performPause]
+01-24 21:33:58.511 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.871 I/am_on_create_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,performCreate]
+01-24 21:33:58.514 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.941 I/am_on_start_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,handleStartActivity]
+01-24 21:33:58.515 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:34.944 I/am_on_resume_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,RESUME_ACTIVITY]
+01-24 21:33:58.532 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:36.167 I/am_on_stop_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:34:01.725 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:36.168 I/am_on_destroy_called(27518): [0,com.duy.ide.javaide.activities.SplashScreenActivity,performDestroy]
+01-24 21:34:01.726 D/TextClassifierService(27518): No configured system TextClassifierService
+01-24 21:11:36.179 I/am_on_stop_called(27518): [0,fantasticappsstore.apkeditor.MainActivity,STOP_ACTIVITY_ITEM]
+01-24 21:11:36.181 I/am_on_stop_called(27518): [0,com.google.android.gms.ads.AdActivity,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:11:36.182 I/am_on_destroy_called(27518): [0,com.google.android.gms.ads.AdActivity,performDestroy]
+01-24 21:13:33.243 I/sysui_action(27518): [629,1]
+01-24 21:13:33.243 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:15:00.592 I/binder_sample(27518): [android.view.IWindowSession,26,11,fantasticappsstore.apkeditor,2]
+01-24 21:18:12.615 I/sysui_action(27518): [629,1]
+01-24 21:18:12.616 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:21:28.237 I/binder_sample(27518): [android.view.IWindowSession,5,23,fantasticappsstore.apkeditor,4]
+--------- beginning of main
+01-24 21:51:50.970 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:51:51.026 I/InputMethodManager(27518): [startInputInner] EditorInfo { packageName=fantasticappsstore.apkeditor, inputType=0xe0001, imeOptions=0x58000006 }, windowGainingFocus=android.view.ViewRootImpl$W@948056d, mServedView=com.duy.ide.editor.view.CodeEditor{aba9e68 VFED.VCL. .F....ID 0,0-1440,2431 #7f0900b3 app:id/edit_text}, mSICW=ControlledInputConnectionWrapper{connection=com.android.internal.widget.EditableInputConnection@49fb5a2 finished=false mParentInputMethodManager.mActive=false}
+01-24 21:23:16.478 I/sysui_action(27518): [629,0]
+01-24 21:51:51.031 I/InputMethodManager(27518): [startInputInner] mSICW=ControlledInputConnectionWrapper{connection=com.android.internal.widget.EditableInputConnection@49fb5a2 finished=false mParentInputMethodManager.mActive=false}, mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@ea3e233, res=InputBindResult{result=SUCCESS_WITH_IME_SESSION method=com.android.internal.view.IInputMethodSession$Stub$Proxy@ea3e233 id=com.emoji.keyboard.touchpal.oem/com.cootek.smartinput5.TouchPalIME sequence=300 userActionNotificationSequenceNumber=4}
+01-24 21:23:16.478 I/sysui_multi_action(27518): [757,629,758,4,759,0]
+01-24 21:51:51.293 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:23:16.650 I/binder_sample(27518): [android.view.IWindowSession,6,18,fantasticappsstore.apkeditor,3]
+01-24 21:23:46.238 I/binder_sample(27518): [android.view.IWindowSession,5,25,fantasticappsstore.apkeditor,5]
+01-24 21:25:39.431 I/sysui_action(27518): [629,1]
+01-24 21:51:51.301 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:25:39.431 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:51.372 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:25:40.685 I/sysui_multi_action(27518): [757,1100,758,1101,759,1,806,fantasticappsstore.apkeditor,1117,0,1118,0,1119,bf2a280e-cf9e-48a3-bf42-501e1ab6c8dc,1120,0,1250,0,1251,1,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:52.238 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:25:40.863 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,177,1118,177,1119,bf2a280e-cf9e-48a3-bf42-501e1ab6c8dc,1120,1,1250,0,1251,23,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:53.064 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:25:42.940 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,2254,1118,2077,1119,bf2a280e-cf9e-48a3-bf42-501e1ab6c8dc,1120,2,1250,-1,1251,23,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:54.283 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 250 type(userData2): 2
+01-24 21:25:44.671 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,3985,1118,1731,1119,bf2a280e-cf9e-48a3-bf42-501e1ab6c8dc,1120,3,1250,-1,1251,24,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:56.443 D/EditorDelegate(27518): saveInBackground: document not changed, no need to save
+01-24 21:25:45.963 I/sysui_multi_action(27518): [757,1100,758,1109,759,1,806,fantasticappsstore.apkeditor,1117,5277,1118,1292,1119,bf2a280e-cf9e-48a3-bf42-501e1ab6c8dc,1120,4,1250,-1,1251,24,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:56.483 W/IInputConnectionWrapper(27518): Abnormal IICW=ControlledInputConnectionWrapper{connection=null finished=true mParentInputMethodManager.mActive=true} for msg:65, ic=null
+01-24 21:25:47.062 I/sysui_action(27518): [629,1]
+01-24 21:51:58.196 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 200 type(userData2): 2
+01-24 21:25:47.062 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:58.317 I/System.out(27518): source size: 2
+01-24 21:25:48.997 I/binder_sample(27518): [android.view.IWindowSession,6,7,fantasticappsstore.apkeditor,1]
+01-24 21:51:58.317 I/System.out(27518): 
+01-24 21:29:35.948 I/sysui_action(27518): [629,1]
+01-24 21:51:58.317 I/System.out(27518): CompileJavaTask: Compiler arguments Argument{args=[-verbose, -bootclasspath, /data/user/0/fantasticappsstore.apkeditor/files/sdk/platforms/android-27/android.jar, -classpath, ., -sourcepath, /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java:/storage/emulated/0/JavaNIDE/lifewriter/app/build/generated/source, -1.7, -target, 1.7, -proc:none, -d, /storage/emulated/0/JavaNIDE/lifewriter/app/build/classes, /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/jctreeobjectinterface.java, /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/permissions/permissions.java]}
+01-24 21:29:35.948 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:58.317 I/System.out(27518): 
+01-24 21:29:36.733 I/sysui_multi_action(27518): [757,1100,758,1101,759,1,806,fantasticappsstore.apkeditor,1117,0,1118,0,1119,f81f0774-5bb4-4236-8fc3-3fba8397a031,1120,0,1250,0,1251,1,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:58.469 W/System.err(27518): java.io.FileNotFoundException: /storage/emulated/0/JavaNIDE/lifewriter/app/build/output/jar/lifewriter.jar (No such file or directory)
+01-24 21:29:36.808 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,75,1118,75,1119,f81f0774-5bb4-4236-8fc3-3fba8397a031,1120,1,1250,0,1251,47,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.469 W/System.err(27518): 
+01-24 21:29:39.079 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,2346,1118,2271,1119,f81f0774-5bb4-4236-8fc3-3fba8397a031,1120,2,1250,46,1251,47,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 	at java.io.FileOutputStream.open0(Native Method)
+01-24 21:29:40.657 I/sysui_multi_action(27518): [757,1100,758,1115,759,1,806,fantasticappsstore.apkeditor,1117,3924,1118,1578,1119,f81f0774-5bb4-4236-8fc3-3fba8397a031,1120,3,1250,46,1251,47,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:29:45.072 I/sysui_action(27518): [629,1]
+01-24 21:51:58.471 W/System.err(27518): 	at java.io.FileOutputStream.open(FileOutputStream.java:308)
+01-24 21:29:45.072 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:29:46.253 I/sysui_multi_action(27518): [757,1100,758,1101,759,1,806,fantasticappsstore.apkeditor,1117,0,1118,0,1119,bc428885-1286-4d3c-98aa-14b679e755ae,1120,0,1250,0,1251,1,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:58.471 W/System.err(27518): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:238)
+01-24 21:29:46.310 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,57,1118,57,1119,bc428885-1286-4d3c-98aa-14b679e755ae,1120,1,1250,0,1251,33,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:29:46.509 I/binder_sample(27518): [android.view.IWindowSession,6,32,fantasticappsstore.apkeditor,6]
+01-24 21:29:48.522 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,2269,1118,2212,1119,bc428885-1286-4d3c-98aa-14b679e755ae,1120,2,1250,0,1251,36,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:29:48.872 I/binder_sample(27518): [android.view.IWindowSession,6,34,fantasticappsstore.apkeditor,6]
+01-24 21:51:58.471 W/System.err(27518): 	at java.io.FileOutputStream.<init>(FileOutputStream.java:180)
+01-24 21:29:49.871 I/sysui_multi_action(27518): [757,1100,758,1109,759,1,806,fantasticappsstore.apkeditor,1117,3618,1118,1349,1119,bc428885-1286-4d3c-98aa-14b679e755ae,1120,3,1250,0,1251,36,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:29:51.023 I/sysui_action(27518): [629,1]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.internal.jar.JarArchive.createJarArchive(JarArchive.java:58)
+01-24 21:29:51.023 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:30:30.660 I/binder_sample(27518): [android.view.IWindowSession,10,25,fantasticappsstore.apkeditor,5]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.task.java.JarTask.doFullTaskAction(JarTask.java:42)
+01-24 21:30:38.920 I/binder_sample(27518): [android.view.IWindowSession,6,30,fantasticappsstore.apkeditor,6]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:31:55.538 I/sysui_action(27518): [629,1]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.BuilderImpl.runTasks(BuilderImpl.java:31)
+01-24 21:31:55.538 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:33:51.053 I/sysui_action(27518): [629,1]
+01-24 21:33:51.054 I/sysui_multi_action(27518): [757,629,758,4,759,1]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:33:52.085 I/sysui_multi_action(27518): [757,1100,758,1101,759,1,806,fantasticappsstore.apkeditor,1117,0,1118,0,1119,aa70e595-847b-4819-8c44-f45b814df617,1120,0,1250,0,1251,1,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.JavaBuilder.build(JavaBuilder.java:48)
+01-24 21:33:52.193 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,108,1118,108,1119,aa70e595-847b-4819-8c44-f45b814df617,1120,1,1250,0,1251,241,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:33:52.255 I/binder_sample(27518): [android.view.IWindowSession,6,26,fantasticappsstore.apkeditor,5]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.BuildTask.doInBackground(BuildTask.java:28)
+01-24 21:33:58.457 I/sysui_multi_action(27518): [757,1100,758,1103,759,1,806,fantasticappsstore.apkeditor,1117,6372,1118,6264,1119,aa70e595-847b-4819-8c44-f45b814df617,1120,2,1250,0,1251,241,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:33:58.510 I/sysui_multi_action(27518): [757,1100,758,1115,759,1,806,fantasticappsstore.apkeditor,1117,6424,1118,52,1119,aa70e595-847b-4819-8c44-f45b814df617,1120,3,1250,0,1251,241,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:51:58.471 W/System.err(27518): 	at com.duy.android.compiler.builder.BuildTask.doInBackground(BuildTask.java:9)
+01-24 21:33:58.511 I/sysui_multi_action(27518): [757,1100,758,1101,759,1,806,fantasticappsstore.apkeditor,1117,0,1118,0,1119,9fbe9cb0-c8d8-40c5-b96a-3caf02d8c98f,1120,0,1250,0,1251,1,1252,0,1253,0,1254,,1255,edittext,1256,]
+01-24 21:33:58.542 I/sysui_multi_action(27518): [757,1100,758,1102,759,1,806,fantasticappsstore.apkeditor,1117,31,1118,31,1119,9fbe9cb0-c8d8-40c5-b96a-3caf02d8c98f,1120,1,1250,0,1251,242,1252,0,1253,0,1254,other,1255,edittext,1256,en_v609]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:34:03.832 I/am_on_paused_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,performPause]
+01-24 21:51:58.471 W/System.err(27518): 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+01-24 21:34:03.860 I/am_on_stop_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,STOP_ACTIVITY_ITEM]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:44:00.078 I/binder_sample(27518): [android.hardware.display.IDisplayManager,1,10,fantasticappsstore.apkeditor,2]
+01-24 21:51:58.471 W/System.err(27518): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+01-24 21:51:50.840 I/am_on_restart_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,performRestartActivity]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:51:50.892 I/binder_sample(27518): [android.app.IActivityManager,199,51,fantasticappsstore.apkeditor,10]
+01-24 21:51:58.471 W/System.err(27518): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+01-24 21:51:50.897 I/am_on_start_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,handleStartActivity]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:51:50.915 I/am_on_resume_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,RESUME_ACTIVITY]
+01-24 21:51:55.175 I/menu_item_selected(27518): [0,File]
+01-24 21:51:56.436 I/menu_item_selected(27518): [0,Save]
+01-24 21:51:58.471 W/System.err(27518): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:51:57.962 I/menu_item_selected(27518): [0,Run]
+01-24 21:51:58.471 W/System.err(27518): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+01-24 21:52:00.733 I/menu_item_selected(27518): [0,More menu]
+01-24 21:52:02.074 I/am_on_paused_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,performPause]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:52:02.091 I/binder_sample(27518): [android.app.IActivityManager,16,17,fantasticappsstore.apkeditor,3]
+01-24 21:51:58.471 W/System.err(27518): 	at java.lang.Thread.run(Thread.java:764)
+01-24 21:52:02.136 I/am_on_create_called(27518): [0,com.pluscubed.logcat.ui.LogcatActivity,performCreate]
+01-24 21:51:58.471 W/System.err(27518): 
+01-24 21:52:02.138 I/am_on_start_called(27518): [0,com.pluscubed.logcat.ui.LogcatActivity,handleStartActivity]
+01-24 21:51:58.495 D/SlidingUpPanelLayout(27518): View is settling. Aborting animation.
+01-24 21:52:02.140 I/am_on_resume_called(27518): [0,com.pluscubed.logcat.ui.LogcatActivity,LIFECYCLER_RESUME_ACTIVITY]
+01-24 21:52:01.364 I/InputMethodManager(27518): [startInputInner] EditorInfo { packageName=fantasticappsstore.apkeditor, inputType=0xe0001, imeOptions=0x50000006 }, windowGainingFocus=null, mServedView=com.duy.ide.editor.view.CodeEditor{aba9e68 VFED.VCL. .F....ID 0,0-1440,2431 #7f0900b3 app:id/edit_text}, mSICW=ControlledInputConnectionWrapper{connection=com.android.internal.widget.EditableInputConnection@7c20575 finished=false mParentInputMethodManager.mActive=true}
+01-24 21:52:02.145 I/am_on_paused_called(27518): [0,com.pluscubed.logcat.ui.LogcatActivity,performPause]
+01-24 21:52:01.367 I/InputMethodManager(27518): [startInputInner] mSICW=ControlledInputConnectionWrapper{connection=com.android.internal.widget.EditableInputConnection@7c20575 finished=false mParentInputMethodManager.mActive=true}, mCurMethod=com.android.internal.view.IInputMethodSession$Stub$Proxy@8c4290a, res=InputBindResult{result=SUCCESS_WITH_IME_SESSION method=com.android.internal.view.IInputMethodSession$Stub$Proxy@8c4290a id=com.emoji.keyboard.touchpal.oem/com.cootek.smartinput5.TouchPalIME sequence=302 userActionNotificationSequenceNumber=4}
+01-24 21:52:02.161 I/am_on_create_called(27518): [0,com.google.android.gms.ads.AdActivity,performCreate]
+01-24 21:52:02.143 I/System  (27518): exec(su @ com.pluscubed.logcat.helper.SuperUserHelper.requestRoot)
+01-24 21:52:02.163 I/am_on_start_called(27518): [0,com.google.android.gms.ads.AdActivity,handleStartActivity]
+01-24 21:52:02.145 W/SuperUserHelper(27518): Cannot obtain root
+01-24 21:52:02.145 W/SuperUserHelper(27518): java.io.IOException: Cannot run program "su": error=13, Permission denied
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1054)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.Runtime.exec(Runtime.java:695)
+01-24 21:52:02.165 I/am_on_resume_called(27518): [0,com.google.android.gms.ads.AdActivity,RESUME_ACTIVITY]
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.Runtime.exec(Runtime.java:525)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.Runtime.exec(Runtime.java:422)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.helper.SuperUserHelper.requestRoot(SuperUserHelper.java:199)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.helper.UpdateHelper$Update$6.onCallback(UpdateHelper.java:96)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.helper.UpdateHelper$Update$6.onCallback(UpdateHelper.java:92)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.helper.UpdateHelper.runUpdatesIfNecessary(UpdateHelper.java:31)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.ui.LogcatActivity$3.doInBackground(LogcatActivity.java:276)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at com.pluscubed.logcat.ui.LogcatActivity$3.doInBackground(LogcatActivity.java:272)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.Thread.run(Thread.java:764)
+01-24 21:52:02.145 W/SuperUserHelper(27518): Caused by: java.io.IOException: error=13, Permission denied
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.UNIXProcess.forkAndExec(Native Method)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:133)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.ProcessImpl.start(ProcessImpl.java:132)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1033)
+01-24 21:52:02.145 W/SuperUserHelper(27518): 	... 15 more
+01-24 21:52:02.155 D/DynamitePackage(27518): Instantiating com.google.android.gms.ads.ChimeraAdOverlayCreatorImpl
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322157,"event":"onNetworkRequest","components":["network_request_68f33a08-276f-402b-a65e-a215e26b1a1b"],"params":{"firstline":{"uri":"https://googleads.g.doubleclick.net/pagead/adview?ai=CgZ0p6bErXuDcB4qdtOUP7NCVuAH2orysW5qZ87_bCsb_pKeXDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiAJP0Mvp_nLDcwJRCiPWmBvCyyC-k1rm-syRbJFRvyaXgW7a4Iujedd-Wf7XYmQYP29AT73rMSyJv-E_0p5TsKVFj7XFJn_ePTD17IR3z8DjrOvnkBp0f4g6O3s1KFVZq-c_3uSVqcWSJPUbKDJoNbmKukXN2TJ8e7PYc8TntVZ6HsNEvxa2OFge4UcDonGTajHhbuzvEhbKaEXsDHpFnAimQsClf3CXjsk99xVHpK6zqSclKUO8sCKO5ujaJD2vRIq4oQEnXa4kjlIUaH37XLaLJGJExnbDuYmsal_QIAmrd4sNGyOuzxDMSj725bSQrcuz6r8CcJqCg-6QKLhB0LqAlvMw9nKmuFLABN2i9KuYAogFxaaCgRiSBQoIAxABGAE6AggFkgUECAQYAZIFBAgFGASQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUb2AcA8gcEEMjcY6AIo9I-sAgC0ggHCIhhEAEYHoAKAsgLAbgT5APCEwYYspW4jwPYEwyCFCsaKW1vYmlsZWFwcDo6Mi1mYW50YXN0aWNhcHBzc3RvcmUuYXBrZWRpdG9yiBQC&sigh=gvrlaMafYUI&cid=CAQSVwDwy9IZTE1A90wtoUfpGgpy-Rk77LCUKItFuigPJIlK72KjpDCBasUO5c5VF5JQViOkpPtvgQHmtUs8lNSyfni-gA_v4mHqTNPEahkmDhfA56jgNmW4OQ&template_id=484&tpd=AGWhJmvlypRKKQKbd_hDRuh2bkaFnwiWm90jjDrm-kmtwlp6lQ","verb":"GET"},"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"}]}}
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322158,"event":"onNetworkRequest","components":["network_request_b76187ca-7a67-4fd1-9153-fb621ac620d3"],"params":{"firstline":{"uri":"https://ad.doubleclick.net/ddm/trackimp/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670337;dc_trk_aid=454780028;dc_trk_cid=102634164;ord=1810605904;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=","verb":"GET"},"headers":[{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"}]}}
+01-24 21:52:02.158 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.159 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:02.159 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:02.194 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:02.225 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:02.240 I/System  (27518): exec(logcat -v time -d @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.252 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.252 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322252,"event":"onNetworkRequest","components":["network_request_495f01c7-1389-4156-898e-1cafedc40127"],"params":{"firstline":{"uri":"https://pagead2.googlesyndication.com/pagead/gen_204?zx=o6jalrrf40t5&id=gmob-apps-activeview&event=scrollable-view-baseline&v=sdk_20200123_RC00&is_tos=false","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/canary/sdk-core-v40-impl.html?q=canary-canary"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"image/webp,image/apng,image/*,*/*;q=0.8"}]}}
+01-24 21:52:02.252 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.253 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:02.283 I/System  (27518): exec(logcat -v time -b events -d @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.325 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:02.329 I/System  (27518): exec(logcat -v time -b radio -d @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.374 I/System  (27518): exec(logcat -v time @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.378 I/System  (27518): exec(logcat -v time -b events @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.381 I/System  (27518): exec(logcat -v time -b radio @ com.pluscubed.logcat.helper.RuntimeHelper.exec)
+01-24 21:52:02.384 W/IInputConnectionWrapper(27518): Abnormal IICW=ControlledInputConnectionWrapper{connection=null finished=true mParentInputMethodManager.mActive=true} for msg:65, ic=null
+01-24 21:52:02.413 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.413 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322413,"event":"onNetworkResponse","components":["network_request_b76187ca-7a67-4fd1-9153-fb621ac620d3"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Pragma","value":"no-cache"},{"name":"P3P","value":"policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""},{"name":"X-Android-Received-Millis","value":"1579924322413"},{"name":"Date","value":"Sat, 25 Jan 2020 03:52:03 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"no-cache, must-revalidate"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Set-Cookie","value":"test_cookie=CheckForPermission; expires=Sat, 25-Jan-2020 04:07:03 GMT; path=/; domain=.doubleclick.net; SameSite=none"},{"name":"Expires","value":"Fri, 01 Jan 1990 00:00:00 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924322279"},{"name":"Content-Length","value":"42"},{"name":"X-XSS-Protection","value":"0"},{"name":"Content-Type","value":"image/gif"}]}}
+01-24 21:52:02.413 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.435 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.435 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322434,"event":"onNetworkResponse","components":["network_request_68f33a08-276f-402b-a65e-a215e26b1a1b"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43\",quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"P3P","value":"policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""},{"name":"X-Android-Received-Millis","value":"1579924322434"},{"name":"Date","value":"Sat, 25 Jan 2020 03:52:03 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"private"},{"name":"Content-Security-Policy","value":"script-src 'none'; object-src 'none'"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Set-Cookie","value":"test_cookie=CheckForPermission; expires=Sat, 25-Jan-2020 04:07:03 GMT; path=/; domain=.doubleclick.net; SameSite=none"},{"name":"Expires","value":"Sat, 25 Jan 2020 03:52:03 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924322300"},{"name":"Content-Length","value":"0"},{"name":"X-XSS-Protection","value":"0"},{"name":"Content-Type","value":"text/html; charset=UTF-8"}]}}
+01-24 21:52:02.435 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.539 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:02.539 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924322539,"event":"onNetworkResponse","components":["network_request_495f01c7-1389-4156-898e-1cafedc40127"],"params":{"firstline":{"code":204},"headers":[{"name":null,"value":"HTTP/1.1 204 No Content"},{"name":"Alt-Svc","value":"quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43\",quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Pragma","value":"no-cache"},{"name":"P3P","value":"policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""},{"name":"X-Android-Received-Millis","value":"1579924322539"},{"name":"Date","value":"Sat, 25 Jan 2020 03:52:03 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"no-cache, must-revalidate"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 204"},{"name":"Expires","value":"Fri, 01 Jan 1990 00:00:00 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924322402"},{"name":"Content-Length","value":"0"},{"name":"X-XSS-Protection","value":"0"},{"name":"Content-Type","value":"image/gif"}]}}
+01-24 21:52:02.539 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:02.834 I/am_on_stop_called(27518): [0,com.duy.ide.javaide.JavaIdeActivity,STOP_ACTIVITY_ITEM]
+01-24 21:52:03.337 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:03.337 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924323336,"event":"onNetworkRequest","components":["network_request_a2cb54d3-ee02-4c1c-ae1e-b248f3ab6738"],"params":{"firstline":{"uri":"https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjstqhxz5ZFiQ_Bkg3C-2ZR8guE9i__MGTbFOhBDpnI7-AlMRDgZRRWR7plaKB2Nsc9V-B50RFCIHTuREcWbjETbI76HtJ39d6mDuXZDqYqvdC8_-soU&sai=AMfl-YRugJrXKDnvQl-uFgoytId0pl89WZwOcpw3vneDNCmLUaSKXINvV7DvCRDj9_cl48mq4iNr7YI7S6n9FXkXQecZOkUUJKuKrUai2LmN3RgujmwYkutPc9ifR8I8AI7e19VEQT3xjUKMOX_WnlaKUtqEJjUq1NRK&sig=Cg0ArKJSzHrZ3xbcjjXQEAE&cid=CAASBORoXNA&id=gmob&mtos=1098%2C1098%2C1098%2C1098%2C1098&tos=1098%2C0%2C0%2C0%2C0&p=0%2C0%2C720%2C360&mcvt=1098&rs=8&ht=0&tfs=10191071&tls=10192169&mc=1&lte=-1&bas=0&bac=0&met=no&avms=gma&btr=0&lm=4&msd=0&tt=1147&v=sdk_20200123_RC00&adk=1&r=v&bs=360%2C669&sdk=afma-sdk-a-v20088999.14300000.1&mesm=0&vbsc=0%2C0%2C13&absc=0%2C3%2C10&saw=0&adtc=1&exp_ids=370204069&flusht=3600000&fbs_aeid=914435607871393792","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/canary/sdk-core-v40-impl.html?q=canary-canary"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"image/webp,image/apng,image/*,*/*;q=0.8"}]}}
+01-24 21:52:03.337 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:03.406 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:03.406 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924323405,"event":"onNetworkResponse","components":["network_request_a2cb54d3-ee02-4c1c-ae1e-b248f3ab6738"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43\",quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"Access-Control-Allow-Origin","value":"*"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Pragma","value":"no-cache"},{"name":"P3P","value":"policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""},{"name":"X-Android-Received-Millis","value":"1579924323405"},{"name":"Date","value":"Sat, 25 Jan 2020 03:52:04 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"no-cache, must-revalidate"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Expires","value":"Fri, 01 Jan 1990 00:00:00 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924323337"},{"name":"Content-Length","value":"42"},{"name":"X-XSS-Protection","value":"0"},{"name":"Content-Type","value":"image/gif"}]}}
+01-24 21:52:03.406 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:03.742 I/Ads     (27518): Use RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("4E6800E88FD0BA42C7E8F09CCAF01C31") to get test ads on this device.
+01-24 21:52:03.785 I/am_on_paused_called(27518): [0,com.google.android.gms.ads.AdActivity,performPause]
+01-24 21:52:03.837 I/binder_sample(27518): [android.app.IActivityManager,16,53,fantasticappsstore.apkeditor,10]
+01-24 21:52:03.851 W/Ads     (27518): #004 The webview is destroyed. Ignoring action.
+01-24 21:52:03.851 W/Ads     (27518): #004 The webview is destroyed. Ignoring action.
+01-24 21:52:03.870 I/am_on_resume_called(27518): [0,com.pluscubed.logcat.ui.LogcatActivity,RESUME_ACTIVITY]
+01-24 21:52:03.973 I/Ads     (27518): SDK version: afma-sdk-a-v20088999.14300000.1
+01-24 21:52:03.974 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:03.974 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924323973,"event":"onNetworkRequest","components":["network_request_d89f9906-452a-4c4b-8c10-ebd2fbe84987"],"params":{"firstline":{"uri":"https://googleads.g.doubleclick.net/mads/gma?submodel=EXODUS%201&android_app_volume=1&disable_ml=false&format=interstitial_mb&omid_v=a.1.2.21-google_20191111&is_nonagon=true&android_app_muted=false&am=0&dv=21200&gl=US&hl=en&js=afma-sdk-a-v20088999.14300000.1&lv=320&ms=CoACC770rc_S_glDFRoaetAtyPDScNa1WAibz0qOBxmlAblUZUIclGTYTecoODgPohC4UEVVedtVCnaFgFqsUVeaWG01PrrVAgW0fZxp4AWUIbEDi5uz34amFiVvJF9ZqGwq6OlKpPyY-ClPa-EXKe0C-HQu7BIXUxxbwqjvRc_V-jHdHm1QKavhOxMvW2QR6I7Fomra41xn3khx8mTreS_lk9PBrl-NzXlyFqFORCb3ZZWwdhztrASjAIFxXN0v0olApRZsCUWfvimTgXOngCBFImLNDFuuoAbn2kVUYa6lBJXtlEvxmGTyufQ7OI6_QG4D8LU-hajpBMkILflf7azl-QqAAkCWjZz7Q2rybmmMaAnpIrBqxGqsKqhEwVB0mOUnq1V0iGZAVbHhoA1DrhD66KTIs0IF_Cdt1ea0uqWIiy-SJj_eAPWWwj1-mdZAjjWw9oN3e9HLhCKhe4Tr9W0Hjs366Bx9PDKvymCdkefSXHPFXj9jGwZ9uI-eXJCJd64YTuu1kDQQSiNy57YNYxiYPT_5lIo8xvAJKRyzGkTAJkvYeTV7w9Jg4-OgeA2rWGJQ2xDH-5jzhNcLuToNXJsbCKA6VFgoYYXvRXZVK0DdQlWW-jNRXrlyzB9CI3AuLEjcOsDbDue-JKL2OmksNQG3ZNJjGOqPzfH0rCFivuf59-9xkl8SEK_oyCfmPpYO7vETdBeJM4M&mv=81841500.com.android.vending&rm=0&sp=false&coh=true&riv=0&u_sd=4&request_id=e91bd72a-3567-4d96-9133-0f4425c576d8&render_in_browser=false&target_api=28&carrier=311480&request_pkg=com.duy.ide.javaide.JavaIdeActivity&is_sidewinder=false&session_id=8443885202886931841&seq_num=7&eid=318479700%2C318482080%2C318484497%2C318486317%2C318478497%2C318484676%2C318483611%2C318486977%2C318486846%2C318487060%2C318486966%2C318475417&_c_csdk_npa_o=false&guci=0.0.0.0.0.0.0.0&u_w=360&u_h=670&msid=fantasticappsstore.apkeditor&app_name=2.android.fantasticappsstore.apkeditor&_package_name=fantasticappsstore.apkeditor&an=2.android.fantasticappsstore.apkeditor&net=ed&u_audio=3&u_so=p&preqs_in_session=0&support_transparent_background=true&preqs=6&time_in_session=0&dload=2015&pcc=0&ismediation=false&output=html&region=mobile_app&u_tz=-360&client_sdk=1&ex=1&client=ca-app-pub-4328679421359299&slotname=8254399311&gsb=4g&lite=false&num_ads=1&vpt=8&vfmt=18&vst=0&sdkv=o.20088999.14300000.1&sdmax=0&dmax=1&sdki=3c4d&caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&bisch=true&blev=0.95&swdr=false&cans=5&canm=true&ibctc=true&_mv=28.android&heap_free=17994614&heap_max=536870912&heap_total=38940302&wv_count=6&rdps=85300&blockAutoClicks=true&includeDoritos=true&rdidl=36&idtypel=4&is_latl=-1&blob=ABPQqLFTfzOCNlUMRLSmPMIfglZYKPwBEhVU8LZKQz-yZoDzISRmr2N7WX5XKGe-I2GH0OebP7rRzQpoDaK7k_aFzYvXBroOy4RDovDepexZ7GjvbV1LyjZmtxwbMfr95Sjh7WqgsdZfq4Y7-RR0zIThWWpmxA-NInoTgP8ML7HeFdNBAAAPxtv8tah_xn1oEghYKCrCPU0fYuQIwS4PsPwM6r1JV8HVZ3nFN2MK5QPdunOpEvYJv_bHMQdEE4HSD8lziTK4yS3E1RhjMLlwWenQGabK4beeI3LKZzAOeti2LfuZ_2hBY5xXnioxPkAIfQUz_MfC49wLfGyxyTc&et=8&tcar=11&jsv=sdk_20190107_RC02-production-sdk_20200116_RC00&urll=2818#caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318479700%252C318482080%252C318484497%252C318486317%252C318478497%252C318484676%252C318483611%252C318486977%252C318486846%252C318487060%252C318486966%252C318475417&format=interstitial_mb&heap_free=17994614&heap_max=536870912&heap_total=38940302&js=afma-sdk-a-v20088999.14300000.1&msid=fantasticappsstore.apkeditor&preqs=6&request_pkg=com.duy.ide.javaide.JavaIdeActivity&seq_num=7&target_api=28","verb":"GET"},"headers":[{"name":"Cookie","value":"IDE=AHWqTUmg0b81EFxmlraAbix0RljsJ-2m8N6Ntb8fWZtQoVNshW9CGGadYDjxsXhA"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"}]}}
+01-24 21:52:03.974 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.175 I/am_on_stop_called(27518): [0,com.google.android.gms.ads.AdActivity,LIFECYCLER_STOP_ACTIVITY]
+01-24 21:52:04.178 I/am_on_destroy_called(27518): [0,com.google.android.gms.ads.AdActivity,performDestroy]
+01-24 21:52:04.583 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:04.584 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924324581,"event":"onNetworkResponse","components":["network_request_d89f9906-452a-4c4b-8c10-ebd2fbe84987"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"X-Afma-Content-Url-Opted-Out","value":"true"},{"name":"Alt-Svc","value":"quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43\",quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"P3P","value":"policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""},{"name":"X-Android-Received-Millis","value":"1579924324579"},{"name":"X-Afma-Auto-Protection-Configuration","value":"{\"enable_protection\":true,\"reporting_urls\":[\"https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps\\u0026event=auto-protection\\u0026type=prevented-creative-action\\u0026qid=CKyNruHsnecCFRMCrQYd2NwHdQ\\u0026creatives=crid0:393708760234,agcid0:368159023138,ctype0:46,ctid0:484,cuid0:224402357,lp0:https://www.googleadservices.com/pagead/aclk%3Fsa%3DL%26ai%3DC6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg%26num%3D1%26cid%3DCAASBORorVI%26sig%3DAOD64_1Feek17aF-ZJQNQnMnoP7rzWUZeA%26client%3Dca-app-pub-4328679421359299%26adurl%3Dhttps://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289%253Bdc_trk_aid%253D454780028%253Bdc_trk_cid%253D102634164%253Bdc_lat%253D%253Bdc_rdid%253D%253Btag_for_child_directed_treatment%253D%253Btfua%253D,loginfo0:C6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg\\u0026creatives_pb=CsYFCC4Qqtn71roLGKLA87_bCiDkAyi1t4BrMqsFQzZ1YTBaYnNyWHV6R0JwT0V0T1VQMkxtZnFBZWdzcnlzVzZMQTg3X2JDdEgwOFoyTkRoQUJJTW1fMjNGZ3lhYnVqT1Nrd0JPZ0FiS1Z1SThEeUFFSnFBTUJ5QU9LQktvRWl3SlAwQklSTmZCcFRRU2Z4Z3JMOXktM1FpSUNRb1NxZnNxd2FoeFNWbkVUNlZxalV4SHhpREZ1anp3Z28yZHBiX2Vib1VManhxNnI3aDVoXzljU3VuZUcyTG95SzREQmN5RVNHUnU2MERINXBiMTVTT3lLa1FXcjNxS2tfMEFHbjN6dkVCN2dYVEJhYmRTbllQeHFhVDItR2pDSWhEVWRRWnlaaHVXb0RWdk5faVg1SmpSZnlWWUtqREpEbHBmV2djWUxtYUVjUTAxNWQtSnhjb1hPa0h5LUxhNTQ2SlczdE5VdEZ1N0VHb000aFZqUFo4cEp6ekFldmZaQ0hLZGgtelk3MjZqNHRIR1VrZjR2anEyeWdNRnMtZU1wcVFtRHBuckZFZDd4d3VCa3JMUHdiNDJkX2dYb2ZvdjdoSnJMMDY0VG9ESWgybW5Tc2Fmd0NaNUdlTVpuNUFxVXIxSjY5SE9kYldiQUJJYXlpYlduQW9nRjJwVERvQmlRQmdHZ0JpN1lCZ0tBQjluTzQycVlC
+01-24 21:52:04.584 I/Ads     (27518): GMA Debug CONTENT d0dvQjQ3T0c2Z0gxY2ticUFlVDJCdW9CN29HcUFmeTJSdW9CNmEtRzZnSDdOVWJxQWZ6MFJ1b0ItelZHOWdIQUtBSW85SS1zQWdDMGdnSENJaGhFQUVZSHJFSlN0eDdUMWhSODJtQUNnTElDd0c0RS1RRDJCTU1naFFyR2lsdGIySnBiR1ZoY0hBNk9qSXRabUZ1ZEdGemRHbGpZWEJ3YzNOMGIzSmxMbUZ3YTJWa2FYUnZjb2dVQWc\\u0026debugDialog=AdGroup%2BCreative%2BID%2B0%3D368159023138%26AdGroup%2BID%2B0%3D79299762438%26App%2BID%3Dfantasticappsstore.apkeditor%26Backend%2BQuery%2BID%3DZbsrXuzGBpOEtOUP2LmfqAc%26Creative%2BID%2B0%3D393708760234%26Customer%2BID%2B0%3D224402357%26Landing%2BPage%2B0%3Dhttps://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289%253Bdc_trk_aid%253D454780028%253Bdc_trk_cid%253D102634164%253Bdc_lat%253D%253Bdc_rdid%253D%253Btag_for_child_directed_treatment%253D%253Btfua%253D%26URL%2BClickstring%2B0%3DC6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg\\u0026navigationURL={NAVIGATION_URL}\"],\"reporting_url\":\"https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps\\u0026event=auto-protection\\u0026type=prevented-creative-action\\u0026qid=CKyNruHsnecCFRMCrQYd2NwHdQ\\u0026creatives=crid0:393708760234,agcid0:368159023138,ctype0:46,ctid0:484,cuid0:224402357,lp0:https://www.googleadservices.com/pagead/aclk%3Fsa%3DL%26ai%3DC6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg%26num%3D1%26cid%3DCAASBORorVI%26sig%3DAOD64_1Feek17aF-ZJQNQnMnoP7rzWUZeA%26client%3Dca-app-pub-4328679421359299%26adurl%3Dhttps://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289%253Bdc_trk_aid%253D454780028%253Bdc_trk_cid%253D102634164%253Bdc_lat%253D%253Bdc_rdid%253D%253Btag_for_child_directed_treatment%253D%253Btfua%253D,loginfo0:C6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg\\u0026creatives_pb=CsYFCC4Qqtn71roLGKLA87_bCiDkAyi1t4BrMqsFQzZ1YTBaYnNyWHV6R0JwT0V0T1VQMkxtZnFBZWdzcnlzVzZMQTg3X2JDdEgwOFoyTkRoQUJJTW1fMjNGZ3lhYnVqT1Nrd0JPZ0FiS1Z1SThEeUFFSnFBTUJ5QU9LQktvRWl3SlAwQklSTmZCcFRRU2Z4Z3JMOXktM1FpSUNRb1NxZnNxd2FoeFNWbkVUNlZxalV4SHhpREZ1anp3Z28yZHBiX2Vib1VManhxNnI3aDVoXzljU3VuZUcyTG95SzREQmN5RVNHUnU2MERINXBiMTVTT3lLa1FXcjNxS2tfMEFHbjN6dkVCN2dYVEJhYmRTbllQeHFhVDItR2pDSWhEVWRRW
+01-24 21:52:04.584 I/Ads     (27518): GMA Debug CONTENT nlaaHVXb0RWdk5faVg1SmpSZnlWWUtqREpEbHBmV2djWUxtYUVjUTAxNWQtSnhjb1hPa0h5LUxhNTQ2SlczdE5VdEZ1N0VHb000aFZqUFo4cEp6ekFldmZaQ0hLZGgtelk3MjZqNHRIR1VrZjR2anEyeWdNRnMtZU1wcVFtRHBuckZFZDd4d3VCa3JMUHdiNDJkX2dYb2ZvdjdoSnJMMDY0VG9ESWgybW5Tc2Fmd0NaNUdlTVpuNUFxVXIxSjY5SE9kYldiQUJJYXlpYlduQW9nRjJwVERvQmlRQmdHZ0JpN1lCZ0tBQjluTzQycVlCd0dvQjQ3T0c2Z0gxY2ticUFlVDJCdW9CN29HcUFmeTJSdW9CNmEtRzZnSDdOVWJxQWZ6MFJ1b0ItelZHOWdIQUtBSW85SS1zQWdDMGdnSENJaGhFQUVZSHJFSlN0eDdUMWhSODJtQUNnTElDd0c0RS1RRDJCTU1naFFyR2lsdGIySnBiR1ZoY0hBNk9qSXRabUZ1ZEdGemRHbGpZWEJ3YzNOMGIzSmxMbUZ3YTJWa2FYUnZjb2dVQWc\\u0026debugDialog=AdGroup%2BCreative%2BID%2B0%3D368159023138%26AdGroup%2BID%2B0%3D79299762438%26App%2BID%3Dfantasticappsstore.apkeditor%26Backend%2BQuery%2BID%3DZbsrXuzGBpOEtOUP2LmfqAc%26Creative%2BID%2B0%3D393708760234%26Customer%2BID%2B0%3D224402357%26Landing%2BPage%2B0%3Dhttps://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289%253Bdc_trk_aid%253D454780028%253Bdc_trk_cid%253D102634164%253Bdc_lat%253D%253Bdc_rdid%253D%253Btag_for_child_directed_treatment%253D%253Btfua%253D%26URL%2BClickstring%2B0%3DC6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg\\u0026navigationURL={NAVIGATION_URL}\"}"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"X-Afma-Auto-Collect-Location","value":"true"},{"name":"X-Afma-Debug-Dialog","value":"AdGroup+Creative+ID+0=368159023138&AdGroup+ID+0=79299762438&App+ID=fantasticappsstore.apkeditor&Backend+Query+ID=ZbsrXuzGBpOEtOUP2LmfqAc&Creative+ID+0=393708760234&Customer+ID+0=224402357&Landing+Page+0=https://ad.doubleclick.net/ddm/trackclk/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289%3Bdc_trk_aid%3D454780028%3Bdc_trk_cid%3D102634164%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D&URL+Clickstring+0=C6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg"},{"name":"X-Afma-Use-Displayed-Impression","value":"true"},{"name":"X-Android-Sent-Millis","value":"1579924323974"},{"name":"X-Afma-Safe-Browsing","value":"{\"click_string\":\"C6ua0ZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiwJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsafwCZ5GeMZn5AqUr1J69HOdbWbABIayibWnAogF2pTDoBiQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUbqAfz0RuoB-zVG9gHAKAIo9I-sAgC0ggHCIhhEAEYHrEJStx7T1hR82mACgLICwG4E-QD2BMMghQrGiltb2JpbGVhcHA6OjItZmFudGFzdGljYXBwc3N0b3JlLmFwa2VkaXRvcogUAg\",\"report_url\":\"https://sb-ss
+01-24 21:52:04.584 I/Ads     (27518): GMA Debug CONTENT l.google.com/safebrowsing/clientreport/malware\",\"screenshot_enabled\":false,\"non_malicious_reporting_enabled\":false,\"rendered_ad_enabled\":false,\"header_to_scrub\":[\"cookie\"],\"protection_enabled\":true,\"malicious_reporting_enabled\":true,\"allowed_headers\":[\"referer\"],\"webview_permissions\":[]}"},{"name":"X-XSS-Protection","value":"0"},{"name":"X-Afma-Use-Https","value":"false"},{"name":"Content-Type","value":"text/html; charset=UTF-8"},{"name":"Transfer-Encoding","value":"chunked"},{"name":"X-Afma-Tracking-Urls","value":"https://googleads.g.doubleclick.net/pagead/adview?ai=CMLJQZbsrXuzGBpOEtOUP2LmfqAegsrysW6LA87_bCtH08Z2NDhABIMm_23FgyabujOSkwBOgAbKVuI8DyAEJqAMByAOKBKoEiAJP0BIRNfBpTQSfxgrL9y-3QiICQoSqfsqwahxSVnET6VqjUxHxiDFujzwgo2dpb_eboULjxq6r7h5h_9cSuneG2LoyK4DBcyESGRu60DH5pb15SOyKkQWr3qKk_0AGn3zvEB7gXTBabdSnYPxqaT2-GjCIhDUdQZyZhuWoDVvN_iX5JjRfyVYKjDJDlpfWgcYLmaEcQ015d-JxcoXOkHy-La546JW3tNUtFu7EGoM4hVjPZ8pJzzAevfZCHKdh-zY726j4tHGUkf4vjq2ygMFs-eMpqQmDpnrFEd7xwuBkrLPwb42d_gXofov7hJrL064ToDIh2mnSsaeyC5DUnmOp5bFatr7B6pjABIayibWnAogF2pTDoBiSBQoIAxABGAE6AggFkgUECAQYAZIFBAgFGASQBgGgBi7YBgKAB9nO42qYBwGoB47OG6gH1ckbqAeT2BuoB7oGqAfy2RuoB6a-G6gH7NUb2AcA8gcEELu5VKAIo9I-sAgC0ggHCIhhEAEYHoAKAsgLAbgT5APCEwYYspW4jwPYEwyCFCsaKW1vYmlsZWFwcDo6Mi1mYW50YXN0aWNhcHBzc3RvcmUuYXBrZWRpdG9yiBQC&sigh=8TxpJ_VC3aw&cid=CAQSVwDwy9IZ2Qp14wT9zzoXga6lc2IVTc-DG8UtBwq1eTuoRe7p5Z27BxG1QErFDbtKd4soynZ7qBVt7ZIqJAQG6KjxhKvAYUppBF6JUsWnVL0MnP3AaLCJiw&template_id=484&tpd=AGWhJmu9mO3xnxYtW3Ne9ugSeW25ccm5v3fF-0LFu4xoqSy2Ug https://ad.doubleclick.net/ddm/trackimp/N5295.134426.GOOGLEDISPLAYNETWOR/B23366227.258670289;dc_trk_aid=454780028;dc_trk_cid=102634164;ord=3598460436;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=?"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"X-Afma-Content-Vertical-Opted-Out","value":"true"},{"name":"Date","value":"Sat, 25 Jan 2020 03:52:05 GMT"},{"name":"X-Afma-Orientation","value":"portrait"},{"name":"Cache-Control","value":"private"},{"name":"X-Afma-Gws-Query-Id","value":"ZbsrXvChBYHKtOUP8OS6wAg"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"X-Afma-ActiveView","value":"{\"click_string\":\"BxOiZZbsrXuzGBpOEtOUP2LmfqAcAosDzv9sKAAAQATgByAEJyAOKBIgF2pTDoBigBi7SCAUIiGEQAQ\",\"is_active_view_immediate_enabled\":true,\"activeview_cpm_urls\":[],\"active_experiment_ids\":\"370204069\",\"activeview_cid\":\"CAASBORorVI\",\"active_view_url_prefix\":\"https://pagead2.googlesyndication.com/pcs/activeview?xai=AKAOjsub1fovdZALni-Wwz7krilKPvseBxG0-8y6EoAREXU8st80ZFEQD_jK236Z8jTF6FL4XrtqIH1ViS9eYZQ_24o0tseYMYnpQugCIn_Dr-sin7UsY2U\\u0026sai=AMfl-YQwGObPLCF7u0ZZNFvYexazOBpcZTBu-hNiPiBxxm6JFz5LBKgoOLT7RU6loA6ZEmFWSAeGHqPirPne5SiU7itAUlfsnu7DyU4yUFogbNFXgMmDTYAIJ7p-5VZNbDsk0DqBdiZ_KK2lm6TXK_dS6TRc8gqPB81Z\\u0026sig=Cg0ArKJSzKO4wRvqBxr5EAE\\u0026cid=CAASBORorVI\"}"},{"name":"X-Afma-On-Device-Brand-Safety-Opted-Out","value":"true"}]}}
+01-24 21:52:04.584 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.643 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:04.654 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924324639,"event":"onNetworkResponseBody","components":["network_request_d89f9906-452a-4c4b-8c10-ebd2fbe84987"],"params":{"bodydigest":"52CBFD19ECE61AE0D6BE615E6DA29702","bodylength":54151}}
+01-24 21:52:04.654 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.800 D/OpenGLRenderer(27518): endAllActiveAnimators on 0x7d3a263400 (RippleDrawable) with handle 0x7d3f7ab7e0
+01-24 21:52:04.875 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:04.875 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924324875,"event":"onNetworkRequest","components":["network_request_c8854d1e-d94c-4891-ad10-26fa82db2422"],"params":{"firstline":{"uri":"https://tpc.googlesyndication.com/pagead/js/r20200122/r20110914/client/window_focus_fy2019.js","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/gma?caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318479700%2C318482080%2C318484497%2C318486317%2C318478497%2C318484676%2C318483611%2C318486977%2C318486846%2C318487060%2C318486966%2C318475417&format=interstitial_mb&heap_free=17994614&heap_max=536870912&heap_total=38940302&js=afma-sdk-a-v20088999.14300000.1&msid=fantasticappsstore.apkeditor&preqs=6&request_pkg=com.duy.ide.javaide.JavaIdeActivity&seq_num=7&target_api=28"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"*/*"}]}}
+01-24 21:52:04.875 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.876 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:04.876 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924324874,"event":"onNetworkRequest","components":["network_request_57b26f89-943b-4d68-8530-6f44c529d7d3"],"params":{"firstline":{"uri":"https://tpc.googlesyndication.com/pagead/js/r20200122/r20110914/client/load_preloaded_resource_fy2019.js","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/gma?caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318479700%2C318482080%2C318484497%2C318486317%2C318478497%2C318484676%2C318483611%2C318486977%2C318486846%2C318487060%2C318486966%2C318475417&format=interstitial_mb&heap_free=17994614&heap_max=536870912&heap_total=38940302&js=afma-sdk-a-v20088999.14300000.1&msid=fantasticappsstore.apkeditor&preqs=6&request_pkg=com.duy.ide.javaide.JavaIdeActivity&seq_num=7&target_api=28"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"*/*"}]}}
+01-24 21:52:04.876 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.876 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:04.876 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:04.909 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:04.909 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924324908,"event":"onNetworkRequest","components":["network_request_f8c2d6bc-7ace-4526-8210-2e9385e5de11"],"params":{"firstline":{"uri":"https://tpc.googlesyndication.com/simgad/16207500628865532717/downsize_200k_v1","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/gma?caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318479700%2C318482080%2C318484497%2C318486317%2C318478497%2C318484676%2C318483611%2C318486977%2C318486846%2C318487060%2C318486966%2C318475417&format=interstitial_mb&heap_free=17994614&heap_max=536870912&heap_total=38940302&js=afma-sdk-a-v20088999.14300000.1&msid=fantasticappsstore.apkeditor&preqs=6&request_pkg=com.duy.ide.javaide.JavaIdeActivity&seq_num=7&target_api=28"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"image/webp,image/apng,image/*,*/*;q=0.8"}]}}
+01-24 21:52:04.909 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:04.909 D/libc    (27518): [NET] android_getaddrinfo_proxy get netid:0
+01-24 21:52:04.947 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:04.949 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:04.949 D/libc    (27518): [NET] android_getaddrinfo_proxy-, success
+01-24 21:52:05.157 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:05.157 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924325156,"event":"onNetworkResponse","components":["network_request_c8854d1e-d94c-4891-ad10-26fa82db2422"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"P3P","value":"policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""},{"name":"X-Android-Received-Millis","value":"1579924325155"},{"name":"Date","value":"Wed, 22 Jan 2020 23:38:07 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"public, max-age=1209600"},{"name":"ETag","value":"5112019540083599776"},{"name":"Content-Disposition","value":"attachment; filename=\"f.txt\""},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Vary","value":"Accept-Encoding"},{"name":"Vary","value":"Origin"},{"name":"Expires","value":"Wed, 05 Feb 2020 23:38:07 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924325027"},{"name":"X-XSS-Protection","value":"0"},{"name":"Age","value":"188039"},{"name":"Content-Type","value":"text/javascript; charset=UTF-8"}]}}
+01-24 21:52:05.157 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:05.168 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:05.168 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924325167,"event":"onNetworkResponse","components":["network_request_57b26f89-943b-4d68-8530-6f44c529d7d3"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"cafe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"P3P","value":"policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""},{"name":"X-Android-Received-Millis","value":"1579924325167"},{"name":"Date","value":"Wed, 22 Jan 2020 23:38:07 GMT"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"public, max-age=1209600"},{"name":"ETag","value":"12998318572202925418"},{"name":"Content-Disposition","value":"attachment; filename=\"f.txt\""},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Vary","value":"Accept-Encoding"},{"name":"Vary","value":"Origin"},{"name":"Expires","value":"Wed, 05 Feb 2020 23:38:07 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924325028"},{"name":"X-XSS-Protection","value":"0"},{"name":"Age","value":"188039"},{"name":"Content-Type","value":"text/javascript; charset=UTF-8"}]}}
+01-24 21:52:05.168 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:05.176 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:05.176 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924325175,"event":"onNetworkResponse","components":["network_request_f8c2d6bc-7ace-4526-8210-2e9385e5de11"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"sffe"},{"name":"Access-Control-Allow-Origin","value":"*"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Last-Modified","value":"Tue, 30 Apr 2019 20:20:50 GMT"},{"name":"X-Android-Received-Millis","value":"1579924325174"},{"name":"Date","value":"Wed, 22 Jan 2020 16:15:56 GMT"},{"name":"Accept-Ranges","value":"bytes"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"public, max-age=31536000"},{"name":"Timing-Allow-Origin","value":"*"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"X-DNS-Prefetch-Control","value":"off"},{"name":"Expires","value":"Thu, 21 Jan 2021 16:15:56 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924325028"},{"name":"Content-Length","value":"9375"},{"name":"X-XSS-Protection","value":"0"},{"name":"Age","value":"214570"},{"name":"Content-Type","value":"image/png"}]}}
+01-24 21:52:05.176 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:05.260 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:05.260 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924325259,"event":"onNetworkRequest","components":["network_request_ad2758a6-b6a4-423c-95cc-dea1a9780b02"],"params":{"firstline":{"uri":"https://googleads.g.doubleclick.net/favicon.ico","verb":"GET"},"headers":[{"name":"Referer","value":"https://googleads.g.doubleclick.net/mads/gma?caps=inlineVideo_interactiveVideo_mraid1_mraid2_mraid3_sdkVideo_exo3_th_autoplay_mediation_scroll_av_transparentBackground_sdkAdmobApiForAds_di_sfv_dinm_dim_nav_navc_dinmo_ipdof_gls_gcache_xSeconds&eid=318479700%2C318482080%2C318484497%2C318486317%2C318478497%2C318484676%2C318483611%2C318486977%2C318486846%2C318487060%2C318486966%2C318475417&format=interstitial_mb&heap_free=17994614&heap_max=536870912&heap_total=38940302&js=afma-sdk-a-v20088999.14300000.1&msid=fantasticappsstore.apkeditor&preqs=6&request_pkg=com.duy.ide.javaide.JavaIdeActivity&seq_num=7&target_api=28"},{"name":"User-Agent","value":"Mozilla/5.0 (Linux; Android 9; EXODUS 1 Build/PQ2A.190205.003; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 (Mobile; afma-sdk-a-v20088999.14300000.1)"},{"name":"Accept","value":"image/webp,image/apng,image/*,*/*;q=0.8"}]}}
+01-24 21:52:05.260 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:05.306 I/Ads     (27518): GMA Debug BEGIN
+01-24 21:52:05.306 I/Ads     (27518): GMA Debug CONTENT {"timestamp":1579924325305,"event":"onNetworkResponse","components":["network_request_ad2758a6-b6a4-423c-95cc-dea1a9780b02"],"params":{"firstline":{"code":200},"headers":[{"name":null,"value":"HTTP/1.1 200 OK"},{"name":"Alt-Svc","value":"quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"46,43\",quic=\":443\"; ma=2592000; v=\"46,43\",h3-Q050=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\"googleads.g.doubleclick.net:443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000"},{"name":"Server","value":"sffe"},{"name":"X-Content-Type-Options","value":"nosniff"},{"name":"Last-Modified","value":"Thu, 03 Oct 2019 10:15:00 GMT"},{"name":"X-Android-Received-Millis","value":"1579924325305"},{"name":"Date","value":"Fri, 17 Jan 2020 13:36:41 GMT"},{"name":"Accept-Ranges","value":"bytes"},{"name":"X-Android-Selected-Protocol","value":"http/1.1"},{"name":"Cache-Control","value":"public, max-age=31536000"},{"name":"X-Android-Response-Source","value":"NETWORK 200"},{"name":"Vary","value":"Accept-Encoding"},{"name":"Expires","value":"Sat, 16 Jan 2021 13:36:41 GMT"},{"name":"X-Android-Sent-Millis","value":"1579924325260"},{"name":"X-XSS-Protection","value":"0"},{"name":"Age","value":"656125"},{"name":"Content-Type","value":"image/x-icon"}]}}
+01-24 21:52:05.306 I/Ads     (27518): GMA Debug FINISH
+01-24 21:52:06.653 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:06.716 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2520 type(userData2): 1
+01-24 21:52:09.704 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:09.751 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:10.913 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2147 type(userData2): 1
+01-24 21:52:12.706 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:12.754 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:13.856 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:13.899 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:14.748 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:14.778 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:15.544 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:15.574 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2404 type(userData2): 1
+01-24 21:52:16.304 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:17.062 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:17.084 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:17.881 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:17.913 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:21.231 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:21.279 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:52:31.448 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:31.926 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 395 type(userData2): 1
+01-24 21:52:33.338 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:35.014 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:36.341 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:42.345 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:42.724 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 117 type(userData2): 1
+01-24 21:52:44.383 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:44.764 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 207 type(userData2): 1
+01-24 21:52:46.043 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:46.555 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 185 type(userData2): 1
+01-24 21:52:47.635 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:48.100 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 108 type(userData2): 1
+01-24 21:52:49.377 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:49.873 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 79 type(userData2): 1
+01-24 21:52:50.969 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:52.362 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:52.792 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 146 type(userData2): 1
+01-24 21:52:53.593 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:54.102 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 158 type(userData2): 1
+01-24 21:52:57.622 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:52:58.000 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 105 type(userData2): 1
+01-24 21:52:58.798 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:00.243 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:00.671 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 101 type(userData2): 1
+01-24 21:53:01.670 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:02.064 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 90 type(userData2): 1
+01-24 21:53:03.163 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:03.606 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 103 type(userData2): 1
+01-24 21:53:04.654 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:04.867 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 421 type(userData2): 1
+01-24 21:53:06.296 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:06.542 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 291 type(userData2): 1
+01-24 21:53:07.589 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:07.836 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 251 type(userData2): 1
+01-24 21:53:09.315 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:12.151 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:13.595 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:15.153 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:17.461 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:17.988 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 254 type(userData2): 1
+01-24 21:53:23.794 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:25.137 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:26.781 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:27.210 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 97 type(userData2): 1
+01-24 21:53:28.787 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:29.200 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 434 type(userData2): 1
+01-24 21:53:30.910 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:31.440 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 69 type(userData2): 1
+01-24 21:53:32.586 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:33.065 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 183 type(userData2): 1
+01-24 21:53:33.996 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:34.542 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 173 type(userData2): 1
+01-24 21:53:39.389 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:39.865 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 81 type(userData2): 1
+01-24 21:53:44.312 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:45.657 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:46.101 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 245 type(userData2): 1
+01-24 21:53:46.999 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:47.461 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 92 type(userData2): 1
+01-24 21:53:48.576 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:52.853 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:53.233 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 145 type(userData2): 1
+01-24 21:53:54.267 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:55.658 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:56.054 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 107 type(userData2): 1
+01-24 21:53:56.988 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:59.389 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:53:59.919 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 121 type(userData2): 1
+01-24 21:54:00.800 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:03.537 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:07.569 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:09.640 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:11.181 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:11.744 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 119 type(userData2): 1
+01-24 21:54:13.121 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:13.668 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 67 type(userData2): 1
+01-24 21:54:25.809 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:26.290 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 149 type(userData2): 1
+01-24 21:54:33.855 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:34.466 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 131 type(userData2): 1
+01-24 21:54:35.811 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:36.257 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 68 type(userData2): 1
+01-24 21:54:39.079 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:39.575 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 66 type(userData2): 1
+01-24 21:54:42.082 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:42.644 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 103 type(userData2): 1
+01-24 21:54:43.410 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:43.888 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 151 type(userData2): 1
+01-24 21:54:45.168 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:45.733 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 152 type(userData2): 1
+01-24 21:54:46.611 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:47.039 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 101 type(userData2): 1
+01-24 21:54:47.739 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:48.267 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 234 type(userData2): 1
+01-24 21:54:49.200 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:50.028 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 1123 type(userData2): 1
+01-24 21:54:50.823 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:52.000 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 159 type(userData2): 1
+01-24 21:54:58.337 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:54:58.800 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 209 type(userData2): 1
+01-24 21:54:59.796 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:01.041 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:01.421 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 87 type(userData2): 1
+01-24 21:55:02.239 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:02.814 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 141 type(userData2): 1
+01-24 21:55:03.513 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:04.740 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:04.954 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 706 type(userData2): 1
+01-24 21:55:06.017 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:06.149 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 1175 type(userData2): 1
+01-24 21:55:07.544 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:07.692 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 1275 type(userData2): 1
+01-24 21:55:08.743 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:08.902 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 1998 type(userData2): 1
+01-24 21:55:09.538 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:10.412 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 1963 type(userData2): 1
+01-24 21:55:12.172 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:12.354 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 760 type(userData2): 1
+01-24 21:55:13.583 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:13.747 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 697 type(userData2): 1
+01-24 21:55:14.893 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:15.589 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2548 type(userData2): 1
+01-24 21:55:16.638 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:16.717 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2408 type(userData2): 1
+01-24 21:55:17.367 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:18.027 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2052 type(userData2): 1
+01-24 21:55:19.124 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:19.156 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2138 type(userData2): 1
+01-24 21:55:20.323 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:20.367 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2519 type(userData2): 1
+01-24 21:55:21.249 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:21.362 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2366 type(userData2): 1
+01-24 21:55:22.028 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): -1 type(userData2): 4
+01-24 21:55:22.076 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:55:22.756 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:55:23.636 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:55:24.448 D/BoostFramework(27518): perfHint : hint: 0x1080 pkg_name(userDataStr): fantasticappsstore.apkeditor duration(userData1): 2566 type(userData2): 1
+01-24 21:55:28.383 I/menu_item_selected(27518): [0,Send]
