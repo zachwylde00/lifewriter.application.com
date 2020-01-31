@@ -29,7 +29,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
           <id>github</id>
           <name>GitHub ZACHWYLDE00 Apache Maven Packages</name>
           <url>https://maven.pkg.github.com/OWNER/REPOSITORY</url>
-        </repository>https://maven.pkg.github.com/ZAXHWYLDE00/LIFEWRITER.APPLICATION.com
+        </repository>https://maven.pkg.github.com/ZACHWYLDE00/LIFEWRITER.APPLICATION.com
       </repositories>
     </profile>
   </profiles>
@@ -77,7 +77,7 @@ Add the package dependencies to the dependencies element of your project pom.xml
 
 <dependencies>
   <dependency>
-    <groupId>com.lifewriter.application</groupId>
+    <groupId>com.lifewriter.application.com</groupId>
     <artifactId>live</artifactId>
     <version>1.0.0</version>
   </dependency>
