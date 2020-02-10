@@ -12,8 +12,11 @@
 <iframe
                                                     src="https://www.appsgeyser.com/social_widget/social_widget.php?width=295&height=150&apkName=LifeWriter_9972795&simpleVersion=no"
                                                     width="320" height="180" vspace="0" hspace="0" frameborder="no"
-                                                    scrolling="no" seamless=""
-                                                    allowtransparency="true"></iframen>
+                                                    scrolling="no" seamless="yes"
+allowvalue="true"></iframen>
+allowread/writetouri="true"></iframen>
+allowmint/mine/writeobjectswithvalue="true"                                                  ></iframen>
+allowtransparency="false"></iframen>
 google.com, pub-2402925928840925, DIRECT, f088c47fec942fa0
 google.com, pub-1281508885632778, DIRECT, f088c47fec942fa0
 tappx.com, 28719, DIRECT, 9f375a07da0318ec

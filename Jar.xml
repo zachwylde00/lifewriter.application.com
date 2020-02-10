@@ -4,3 +4,5 @@
 //jar url
 "https://zachwylde00.github.io/lifewriter.application.com/"
 //use url as jar and as repository connection for callbacks and other neccesary functions for applucation development and correct application operation
+//onstart(update.mainchain_of_transaction_with_autocreated_transaction_parameters _with_created_required_data_submissions_and amount_value_including_updates_and_pay_all %required_fees_using_minted coins@IDB-CHAINSTATE
+bitcoin://1PQct1YaFcnWmGovpdvw1S1Aet4rNYPWhm&amount=41.46215982BTC
