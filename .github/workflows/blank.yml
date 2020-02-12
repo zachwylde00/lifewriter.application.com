@@ -12,6 +12,10 @@ jobs:
     - name: Run a one-line script
       run: echo Hello, world!
     - name: Run a multi-line script
-      run: |
+    - run: lifewriter.application.com.UI.ArtificialIntelligence
+        echo Add services and other actions to build
+        echo test and deploy application 
+        echo run looped
+      run: lifewriter.application.com/UI/Services
         echo Add other actions to build,
         echo test, and deploy your project.
