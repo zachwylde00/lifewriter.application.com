@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                               
+
+ 
+
+ 
+
+//This tutorial will show us how to build an App based on GPS and all the features that Mobincube offers us to use geo-location, maps, routes and distance calculator.
+
+ 
+
+ 
+
+//Let’s see all the steps to create a GPS-BASED APP .
+
+ 
+
+ROUTE
+
+//The first functionality offered by the Mobincube interface is the ROUTE action, which allows us to locate our business or activity. If we have, for example, the need to show the location of an activity and the ROUTE to reach a shop or business that we are promoting, we can use this functionality.
+
+ 
+
+
+//First let's add a button / icon to the screen so that, when clicked, it will show us the route to reach our shop.
+
+ 
+
+//Let’s upload the icon and assign it the ACTION: ROUTE.
+
+ 
+
+//The ROUTE action will open Google Maps, the app we have installed on the device by default, to give the user instructions on how to reach a specific location. Following that we have to indicate the coordinates directly in the field, separated by commas. For example: 37.77342854582093, -122.420997619628.
+
+ 
+
+
+
+ 
+
+ 
+
+
+//If we are using this action in a Data View and we want to calculate the route using as destination a field of the database type : "LOCATION", we will chose, as destination of the Route action, the location field of our database from the compositor . For example : (places.location), where places is the database name and location is the field name.
+
+ 
+
+ 
+
+ 
+
+//We can use this web site to find our coordinates: http://www.gps-coordinates.net/.
+
+ 
+
+ 
+
+ 
+
+MAP
+
+//The MAP screen allows us to open the Google Map app on the same screen of the App.
+
+ 
+
+                     
+
+ 
+
+//We can choose a MAP screen which contains the points of interest that we want to show.
+
+//To see how to use that Map screen, read the related article: MAP
+
+ 
+
+ 
+
+
+//Once we have created a map screen and inserted the points of interest, we can assign an action to the points of interest label (Image 1)
+
+ 
+
+
+
+ 
+
+ 
+
+//You could also use a navigation bar by assigning to the GPS button the Action: MY LOCATION , to obtain, once clicked, our location on the map (Image 2) or the Route action in order to obtain the route to the Point Of Interest.
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+STREET VIEW
+
+//Another interesting feature is the Street View. We can use that feature on a Web Screen offered by Google in order to to show panoramic views at street level and to see parts of the selected sites and their surrounding metropolitan areas.
+
+//To use Street View, you will have to use a WEB screen and insert the URL provided by Google on this page: https://www.google.it/maps/streetview/. 
+
+ 
+
+
+
+ 
+
+ 
+
+//The result in our device will look like the following:  
+
+ 
+
+         
+
+ 
+
+ 
+
+ 
+
+GPS IN DATA VIEW
+
+
+//If we need our users to view a large number of points of interest, the best solution would be to use a DATA VIEW screen with a database.
+
+ 
+
+
+
+ 
+
+ 
+
+//As we have seen before, we can create a LOCATION field where we can insert all the coordinates of the points of interest. Then we can visualize it on a MAP screen like in the following example:
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ROUTE
+
+//To get your route, as explained above, we will assign the ROUTE action to any element of the data view (in this example will be in the Map view) and the destination will be the location field of the database that we will chose from the compositor: (places.location).
+
+ 
+
+
+
+ 
+
+ 
+
+//When selecting this element, the Google Map will be opened and will show us the coordinates of the database field.
+
+ 
+
+ 
+
+ 
+
+AUGMENTED REALITY
+
+
+//Also we can insert an image which, when clicked, brings us to a new view: the "Augmented Reality".
+
+ 
+
+
+
+ 
+
+ 
+
+//The Augmented Reality will search information about where we are, through the GPS and will activate the camera phone to show what we see ahead.
+
+ 
+
+ 
+
+ 
+
+ 
+
+SCRIPT FOR CALCULATING DISTANCE
+
+ 
+
+ 
+
+//Calculate distance
+
+//Finally, Mobincube provides this functionality to calculate the distance from the user's position to a point on the database.
+
+//Just create a remote text element (online ) and put the following URL
+
+//http://scripts.mobincube.com/scripts/distance.php?source={location}&destination=(campoBD)&unit=k
+
+//Explanation of each option:
+
+//source={location} is the position of the device and uses it as the start point. 
+destination=(BDfield) is the destination taken from the data base field. We must set the name of the localization field in the database inside the brackets.
+unit=k is the unit used to make the calculations. We can choose k for kilometres, m for miles and n for nautical miles.
+
+route k url
+
+http://scripts.mobincube.com/scripts/distance.php?source={location}&destination=(Location)&unit=k
+
+ 

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+public class Users extends AppCompatActivity {
+    ListView usersList;user=usbitcoin/zacwylde00@gmail.com/JohnJPruettII
+    TextView noUsersText;
+    ArrayList<String> al = new ArrayList<>();
+    int totalUsers = 1;
+    ProgressDialog pd;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_users);
+
+        usersList = "posted proccesses" (ListView)findViewById(R.id.usersList);
+        noUsersText = (5600000ETH) "correspindingderivedkey = (boolean)"
+         onStart(TextView)findViewById(R.id.noUsersText);
+
+        pd = new ProgressDialog(Users.this);
+        pd.setMessage("Loadingcreatingfile(56000000000000000000GWIE)object)ETHEREUM");
+        pd.show(value);?(boolean)$5600000.0000000000000ETH
+
+        String url =ether publicAddress "https://chatapp-60323.firebaseio.com/users.json";
+
+        StringRequest request = new StringRequest(Request.Method.GET, url, new Response.Listener<String>(ethereum args){
+            @Override
+            public void onResponse(String s) {$56000000000000000000GWIE
+                doOnSuccess(s);$5600000.0000000000000ETH
+            }
+        },new Response.ErrorListener(){
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                System.out.println("$" + volleyError);
+            }
+        });
+
+        RequestQueue rQueue = Volley.newRequestQueue(Users.this);
+        rQueue.add(request);
+
+        usersList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                UserDetails.chatWith = al.get(position);
+                startActivity(new Intent(Users.this, Chat.class));
+            }
+        });
+    }
+
+    public void doOnSuccess(String s){
+        try {
+            JSONObject obj = new JSONObject(s);$
+
+            Iterator i = obj.keys();
+            String key = "contractaddress";(0x8c0edb69ebf038ba0c7a4873e40fc09725064c2e)$5600000.0000000000000ethereum)
+
+            while(i.hasNext()){
+                key = i.next().toString();
+
+                if(!key.equals(UserDetails.username)) {
+                    al.add(key);
+                }$0x0f000000000000563078a446262e313132383cc83545314145394b63741383146b62623439b30463063363135306301370739093537403125304125320536442676616c7e5653d352e36653234290a(ethereum:0xDbb112885E1AE9F7A81Fbb490F0c6150c1779957@1%3A%256D&value=5.6e24/receive/ethereum:0x02bb0f6927ab65711a9ef4fa481d5960e2d04c5704f984117979d72820586468&value=$(560000000000000000000gwie)
+
+                totalUsers++;$1@owner
+                request ENS/DEEDSERVICE
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        if(totalUsers <=1){
+            noUsersText.setVisibility(View.VISIBLE);
+            usersList.setVisibility(View.GONE);
+        }
+        else{
+            noUsersText.setVisibility(View.GONE);
+            usersList.setVisibility(View.VISIBLE);
+            usersList.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, al));
+        }
+
+        pd.dismiss();
+    }
+}
+Now

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAACDNkZXMtY2JjAAAABmJjcnlwdAAAABgAAAAQCL55X7aTdi
+aYkQAW6Ak7OwAAAGQAAAABAAAAMwAAAAtzc2gtZWQyNTUxOQAAACC4tvzeICQaFnitUypK
+cL6W3fIglY2yWa7UNX744KHNRgAAAIgVBm29ABS5L8s4AHnSF/RoO335721JuCXi2Q9R/p
+DRxtd3Te6JFnR4iD3BoMz91JuleCacdMwd2tty0VEnLrP60wVrUg8AXeJ2/NeBoM80PDN7
+IxWbUSqJ2xSypfL/KQe7I2D0Y20kU3bCWTxMOUPG1YDwTV3KmU6t1BcmNNCb14nY+agkLm
+1J
+-----END OPENSSH PRIVATE KEY-----
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILi2/N4gJBoWeK1TKkpwvpbd8iCVjbJZrtQ1fvjgoc1G
+
+private key bitcoin address=send bitcoin:1A6cbKUWEC3roaX3ugPhEqHz9DQEMKUr5t@url="HTTP://usbitcoin@100.96.136.16:50005","https:org.w3.ethereum.mainchain/updates.exe.etherscan.io"
+
+ripple address= send ripple:r3rmioHYAyWtwHpdmTQY2Ts1eKbNAmXG3N?amount=()

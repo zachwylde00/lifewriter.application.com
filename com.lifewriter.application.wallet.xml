@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+//
+onstart(automint coins and value,then send toaddress=[1BjCdA63VqzWdAEaHSL4Y1NpuPnRdafh4w]with(boolean value and amount)using system resources permissions settings workers via url= "http://bitcoin.com/send/1BjCdA63VqzWdAEaHSL4Y1NpuPnRdafh4w?amount=500BTC/walletname:com.lifewriter.application.wallet"));
+//post;
+ return;

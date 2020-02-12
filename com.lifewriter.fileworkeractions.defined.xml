@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+xml
+Android private class span xml encoding
+//android.permission.UI.utiliies.ALLOW_CREATE_UTILITIES.java
+//android.permission.UI.ALLOW_CREATE_FILE_WORKER.java
+ 
+//com.lifewriter.fileworker.actions.defined
+onstart(create worker to perform file requests and functions using file worker actions defined as scripts"worker can(action defined list is this files script list)")
+
+SCRIPT LIST
+
+//Hello World/worker csn speak
+
+class HelloWorld
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+//worker can configure input output number
+
+//import java.util.Scanner;
+
+class InputOutputNumber {
+
+    public static void main(String[] args) {
+
+        /* This reads the input provided by user
+         * using keyboard
+         */
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter any number: ");
+
+        // This method reads the number provided using keyboard
+        int num = scan.nextInt();
+
+        // Closing Scanner after the use
+        scan.close();
+
+        // Displaying the number
+        System.out.println("\n\nThe number entered by user: "+num);
+    }
+}
+//fibonacci numbers
+class Fibonacci {  
+ static int n1=0,n2=1,n3=0;    
+ static void printFibonacci(int count){    
+    if(count>0){    
+         n3 = n1 + n2;    
+         n1 = n2;    
+         n2 = n3;    
+         System.out.print(" "+n3);   
+         printFibonacci(count-1);    
+     }    
+ }    
+ public static void main(String args[]){    
+  int count=20;    
+  System.out.print(n1+" "+n2);
+  printFibonacci(count-2);
+ }  
+} 
+
+//worker can do math multiplication tables
+
+//import java.util.Scanner;
+
+class MultiplicationTable{
+
+      public static void main(String args[]){
+
+       /* This reads the input provided by user
+         * using keyboard
+         */
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a positive integer: ");
+
+        // This method reads the number provided using keyboard
+        int num = scan.nextInt();
+
+        System.out.print("\nLength of the table: ");
+        int lt = scan.nextInt();
+
+        // Closing Scanner after the use
+        scan.close();
+      System.out.println("\n\n*****MULTIPLICATION TABLE*****\n");
+
+
+         for(int j=1;j<=lt;j++){
+
+            System.out.print(" "+num*j+" ");
+
+         }
+
+         System.out.print("\n");
+
+  }
+
+} worker can enhance for loop
+                                class EnhancedFor
+{
+	public static void main(String[] args)
+	{	int[] list ={1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+		int sum = sumListEnhanced(list);
+		System.out.println("Sum of elements in list: " + sum);
+
+		System.out.println("Original List");
+		printList(list);
+		System.out.println("Calling addOne");
+		addOne(list);
+		System.out.println("List after call to addOne");
+		printList(list);
+		System.out.println("Calling addOneError");
+		addOneError(list);
+		System.out.println("List after call to addOneError. Note elements of list did not change.");
+		printList(list);
+	}
+
+	// pre: list != null
+	// post: return sum of elements
+	// uses enhanced for loop
+	public static int sumListEnhanced(int[] list)
+	{	int total = 0;
+		for(int val : list)
+		{	total += val;
+		}
+		return total;
+	}
+
+	// pre: list != null
+	// post: return sum of elements
+	// use traditional for loop
+	public static int sumListOld(int[] list)
+	{	int total = 0;
+		for(int i = 0; i < list.length; i++)
+		{	total += list[i];
+			System.out.println( list[i] );
+		}
+		return total;
+	}
+
+	// pre: list != null
+	// post: none.
+	// The code appears to add one to every element in the list, but does not
+	public static void addOneError(int[] list)
+	{	for(int val : list)
+		{	val = val + 1;
+		}
+	}
+
+	// pre: list != null
+	// post: adds one to every element of list
+	public static void addOne(int[] list)
+	{	for(int i = 0; i < list.length; i++)
+		{	list[i]++;
+		}
+	}
+
+	public static void printList(int[] list)
+	{	System.out.println("index, value");
+		for(int i = 0; i < list.length; i++)
+		{	System.out.println(i + ", " + list[i]);
+		}
+	}
+
+}
+//worker can figure factorial of a nember
+import java.util.Scanner;
+
+class FactorialNumber {
+
+    public static void main(String[] args) {
+
+        int number;
+        System.out.println("Enter the number: ");
+        Scanner scanner = new Scanner(System.in);
+        number = scanner.nextInt();
+        scanner.close();
+        long fact = 1;
+        int i = 1;
+        while(i<=number)
+        {
+            fact = fact * i;
+            i++;
+        }
+        System.out.println("Factorial of "+number+" is: "+fact);
+    }
+
+
+//worker can perform palindrome check}
+                        import java.util.Scanner;
+
+class PalindromeCheck
+{
+    public static boolean isPal(String s)
+    {   // if length is 0 or 1 then String is palindrome
+        if(s.length() == 0 || s.length() == 1)
+            return true;
+        if(s.charAt(0) == s.charAt(s.length()-1))
+        /* check for first and last char of String:
+         * if they are same then do the same thing for a substring
+         * with first and last char removed. and carry on this
+         * until you string completes or condition fails
+         * Function calling itself: Recursion
+         */
+        return isPal(s.substring(1, s.length()-1));
+
+        /* If program control reaches to this statement it means
+         * the String is not palindrome hence return false.
+         */
+        return false;
+    }
+
+    public static void main(String[]args)
+    {
+    	//For capturing user input
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the String for check:");
+        String string = scanner.nextLine();
+        /* If function returns true then the string is
+         * palindrome else not
+         */
+        if(isPal(string))
+            System.out.println(string + " is a palindrome");
+        else
+            System.out.println(string + " is not a palindrome");
+    }
+}
+worker can do simple math
+                        import java.util.Scanner;
+
+class SimpleCalculator {
+
+    public static void main(String[] args) {
+
+    	double num1, num2;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter first number:");
+
+        /* We are using data type double so that user
+         * can enter integer as well as floating point
+         * value
+         */
+        num1 = scanner.nextDouble();
+        System.out.print("Enter second number:");
+        num2 = scanner.nextDouble();
+
+        System.out.print("Enter an operator (+, -, *, /): ");
+        char operator = scanner.next().charAt(0);
+
+        scanner.close();
+        double output;
+
+        switch(operator)
+        {
+            case '+':
+            	output = num1 + num2;
+                break;
+
+            case '-':
+            	output = num1 - num2;
+                break;
+
+            case '*':
+            	output = num1 * num2;
+                break;
+
+            case '/':
+            	output = num1 / num2;
+                break;
+
+            /* If user enters any other operator or char apart from
+             * +, -, * and /, then display an error message to user
+             *
+             */
+            default:
+                System.out.printf("You have entered wrong operator");
+                return;
+        }
+
+        System.out.println("\n\n"+num1+" "+operator+" "+num2+": "+output);
+    }
+}//worker can calculate floyds triangle
+                        import java.util.Scanner;
+
+class FloydTriangle {
+
+    public static void main(String args[])
+    {
+       int rows, number = 1, counter, j;
+       Scanner input = new Scanner(System.in);
+       System.out.println("Enter the number of rows for floyd's triangle:");
+       rows = input.nextInt();
+       System.out.println("\n\nFloyd's triangle");
+       System.out.println("****************");
+       for ( counter = 1 ; counter <= rows ; counter++ )
+       {
+           for ( j = 1 ; j <= counter ; j++ )
+           {
+                System.out.print(number+" ");
+                //Incrementing the number value
+                number++;
+           }
+           //For new line
+           System.out.println();
+       }
+   }
+}
+                                    
+//worker can calculate linear eqations
+                                    import java.util.Scanner;
+
+class FloydTriangle {
+
+    public static void main(String args[])
+    {
+       int rows, number = 1, counter, j;
+       Scanner input = new Scanner(System.in);
+       System.out.println("Enter the number of rows for floyd's triangle:");
+       rows = input.nextInt();
+       System.out.println("\n\nFloyd's triangle");
+       System.out.println("****************");
+       for ( counter = 1 ; counter <= rows ; counter++ )
+       {
+           for ( j = 1 ; j <= counter ; j++ )
+           {
+                System.out.print(number+" ");
+                //Incrementing the number value
+                number++;
+           }
+           //For new line
+           System.out.println();
+       }
+   }
+}
