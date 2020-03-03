@@ -1,0 +1,226 @@
+ //Try, this theory relative proposal to lifewriter.app functionality for unresolved
+parameters values and regions for"system processes"
+{
+ 
+If x+(N="nucleus", P="proton", D="death", NP="nuetron", L="life", π="pi",(intersectangle)definedISL="1.57°",%="percent", AW="atomicwastematter") also include: all other current definiton of current tables theories scientific values, and current processes; 
+}
+{
+I propose linear equation:
+ 
+ example: solve(P=NP)
+
+equation:
+SOLVE((( > while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+  -V | --version )
+    echo $version
+    exit
+    ;;
+  -s | --string )
+    shift; string=$1
+    ;;
+  -f | --flag )
+    flag=1
+    ;;
+esac; shift; done
+if [[ "$1" == '--' ]]; then shift; fi> > > > > > > > > > > > 
+> 
+> ^[[A^[[A^] SUB (^Z))P(xN=mc/2 if (xP+xNP ISLtoxN=xLxπx%)=NP(split xN=xD xAWxπx%))))
+
+
+theory!:
+=THE EQUAL AND OPPOSITE OF RELATIVE EXPPRESSION OF EXISTENCE TO ANY LIVING ORGANISM AS ETERNAL AND NATURALLY IMMUTABLE@UNREMARKABLE!
+
+command: ./ai/configure_errors, check_accuracy, compare_basis_to_current scientific_theory,  perform_theory_ comparitive_analysis_in_relation_to_all other_scientific_theories/calculations,  using_data_and_resources_and_configured corrections(if-exists!) _compute_this_equation_too_absolute_nearest-to/or_exact_without_errors.java;
+
+print_return_to_this_file.java;
+
+Proposal is Theory Of Life;
+
+{
+
+//Psalm of Salvation:
+In Memory of ,"Christ", May my King rise again! Eternal, but from the heaven too which I would long doeth he not! 
+
+
+
+
+//by John J Pruett II
+//03/02/2020 22:35:100Z
+
+
+version: 3
+license: gnu v-3, MIT v-3
+jobs:
+  Hello-World:
+  > while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+  -V | --version )
+    echo $version
+    exit
+    ;;
+  -s | --string )
+    shift; string=$1
+    ;;
+  -f | --flag )
+    flag=1
+    ;;
+esac; shift; done
+if [[ "$1" == '--' ]]; then shift; fi> > > > > > > > > > > > 
+> 
+> ^[[A^[[A^] SUB (^Z)
+      language: android
+dist: trusty
+android:
+  components:
+    # Uncomment the lines below if you want to
+    # use the latest revision of Android SDK Tools
+    # - tools
+    # - platform-tools
+    # - defined ai=artificial-intelligence
+    # The BuildTools version used by your project
+    - build-tools-26.0.2
+
+    # The SDK version used to compile your project
+    - android-26
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+
+    # Specify at least one system image,
+    # if you need to run emulator(s) during your tests
+    - sys-img-x86-android-26
+    - sys-img-armeabi-v7a-android-17
+    before_script:
+  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a -c 100M
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
+  before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+cache:
+  directories:
+    - $HOME/.gradle/caches/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+    - $HOME/.gradle/wrapper/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+    - $HOME/.android/build-cac/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+
+    steps:
+      - checkout
+      - run:
+          name: Code Has Arrived
+          command: |
+            ls -al
+            echo '^^^That should look familiar^^^'
+          command: [funtioning_complete_operational-UI]SUB (^Z) 
+           Run-With-Node:
+    docker:
+      - image: ai/node:10-browsers
+    steps:
+      - run:
+          name: Running In A Container With Node
+workflows:
+ version: 2
+ Example_Workflow:
+   jobs:
+     - Hello-World
+     - I-Have-Code:
+         requires:
+           - Hello-World
+     - Run-With-Node:
+         requires:
+           - Hello-World
+     - Hold-For-Approval:
+         type: approval
+         requires:
+           - Run-With-Node
+           - I-Have-Code
+     - Now-Complete:
+         requires:
+           - Hold-For-Approval
+           - ~/.ai/config.yml
+           jobs:
+           test:
+           docker:
+     - image: circleci/<language>:<version TAG>
+    parallelism: 4
+    steps:
+      - run:
+          command: |
+            echo $./ai tests glob "foo/**/*" "bar/**/*")
+          command: ./ai/tests_glob_"foo/**/*" "bar/**/*" | xargs -n 1 echo
+--timings-type_flag.cat     my_java_test_classnames | 
+ai tests split --split-by=timings --timings-type=classname
+ai tests glob "test/**/*.java" | ai tests split
+version: 3
+  jobs:
+   build:
+    machine:
+      image: ubuntu-1604:201903-0. 
+      # recommended linux image - includes Ubuntu 16.04, android 10.0,   container-compose 1.23.1
+  resource_class: 2xlarge
+    steps:
+      ... // other config
+     build:
+      executor: win/2xlarge
+    steps:
+      - run: Write-Host 'Hello, World'
+    build:
+     working_directory: ~./ai/sdstorage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
+      environment:
+       FOO: bar
+steps:
+  - run:
+     name: ./ai Running tests
+       command: ./ai/make_test  
+    - run:
+        command: |
+           echo  ./ai Running test
+      mkdir -p /tmp/test-results
+  make test:
+    steps:
+      - run:
+          name: Testing application
+            command: make test
+               shell: /bin/bash
+      working_directory: ~/my-app
+      no_output_timeout: 30m
+        environment:
+          FOO: bar
+      - run: echo 127.0.0.1 devhost | sudo tee-a /etc/hosts -  
+      - run: |  sudo -u root createuser -h      localhost--superuser ubuntu && sudo createdb -h localhost test_db
+      - run:
+          name: Upload Failed Tests
+            command: curl --data fail_tests.log
+              http://example.com/error_logs
+                when: on_fail jobs: echo ./ai/ fi SUB (^Z) >>^[[A]]
+steps may also be. defined in  commands: ./ai/job_with_optional_custom_checkout:
+   parameters:
+     custom_checkout:
+       type: string
+          default: ""
+             machine: true
+               steps:
+                  - when:
+                  - condition: <<parameters.custom_checkout>>
+                steps:
+                  - run: echo ./ai "my custom checkout"
+                 steps:
+                  - checkout
+                       workflows:
+                        build-test-deploy:
+                  jobs:               -job_with_optional_custom_checkout:
+custom_checkout: "any non-empty
+          string is truthy"                    -job_with_optional_custom_checkout
+                    - checkout
+                    - run: 
+                       command: wget submodule sync
+                    - run: 
+                       command: wget submodule update --init - 
+                    - run:}} 
+                    - name: Build the Lifewriter Application site
+                       command: bundle exec lifewriter build --source class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java --destination lifewriter.application_site/docs/
+                    - store_artifacts:
+                        path: class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java --destination: ai-docs  -
+                    - myapp-{{ .Branch }}-{{ checksum "package-lock.json" 
+exit status "0"
