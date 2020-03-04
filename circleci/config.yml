@@ -16,21 +16,50 @@ version: 3
 license: gnu v-3, MIT v-3
 jobs:
   Hello-World:
-  > while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
-  -V | --version )
-    echo $version
-    exit
-    ;;
-  -s | --string )
-    shift; string=$1
-    ;;
-  -f | --flag )
-    flag=1
-    ;;
-esac; shift; done
-if [[ "$1" == '--' ]]; then shift; fi> > > > > > > > > > > > 
-> 
-> ^[[A^[[A^] SUB (^Z)
+  > //build.gradle in /app
+apply plugin: 'com.android.application'
+
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath 'com.android.tools.build:gradle:1.0.1'
+  }
+}
+//See note below
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.1'
+}
+
+android {
+  compileSdkVersion 19
+  buildToolsVersion "21.1.2"
+
+  defaultConfig {
+    applicationId "com.example.originate"
+    minSdkVersion 14
+    targetSdkVersion 19
+    versionCode 1
+    versionName "1.0"
+
+    testApplicationId "com.example.originate.tests"
+    testInstrumentationRunner "android.test.InstrumentationTestRunner"
+  }
+
+  buildTypes {
+    debug {
+        debuggable true
+    }
+    release {
+        debuggable false
+    }
+  }
+}
+
+dependencies {
+  compile project(':libProject')
+  compile com.android.support
       language: android
 dist: trusty
 android:
