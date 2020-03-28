@@ -132,7 +132,16 @@ steps:
               http://example.com/error_logs
                 when: on_fail jobs: # conditional
 steps may also be. defined in  commands:`job_with_optional_custom_checkout:
-   parameters: echo "SUB ^Z "SHFT" fi ^[[A]]!"
+      - run: 
+        command: ./ci/complete_all_actions_allowed_described@"https://circleci.com/docs/2.0/workflows/
+Tips for Advanced Configuration,
+Holding a Workflow for a Manual Approval,
+Scheduling a Workflow,
+Using Contexts and Filtering in Your Workflows,
+Using Workspaces to Share Data Among Jobs,
+Rerunning a Workflow’s Failed Jobs,
+Troubleshooting,
+    parameters: echo "SUB ^Z "SHFT" fi ^[[A]]!"
      custom_checkout:
        type: string
           default: ""
