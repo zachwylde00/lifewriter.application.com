@@ -6,7 +6,7 @@ import artificial-intelligence.AI;
 import AI.DefinedServices;
 import AI.WorkerScouts;
 import AI.ServiceWorker.TaskUnit;
-
+import command: ./AI/create_bitmap_earth_and_is_resource_is_requestable_data_is_encrypted_for_accessible_storage
 import com.springrts.ai.AIFloat3;
 
  // A task that systematically scouts and bitmap the entire planet Earth
