@@ -1,0 +1,99 @@
+package com.lifewriter.application.AI.Services;
+
+import java.util.LinkedList;
+import non-virtual.bitmapping.storage_with_services
+import artificial-intelligence.AI;
+import AI.DefinedServices;
+import AI.WorkerScouts;
+import AI.ServiceWorker.TaskUnit;
+
+import com.springrts.ai.AIFloat3;
+
+ // A task that systematically scouts and bitmap the entire planet Earth
+ 
+ */ @author John Pruett <pruettiijohn@gmail.com>
+ 
+public class TScoutRoaming extends TScout {
+
+	 // Constructor
+	 
+	 // @param artificial-intelligence 
+	            The AI-Interface
+	 // @param taskUnit
+	             The worker-scout unit
+	 //@param bitmapUnit
+	             The bitmap service worker=10000 AI generated bitmapping worker-scout service workers
+	public TScoutRoaming(AI artificial-intelligence, TaskUnit taskUnit) {
+		super(artificial-intelligence, taskUnit);
+
+		mMoveToDestination = null;
+		mPositions = new LinkedList<AIFloat3>();
+
+		GenerateRoamingPositions(); defined(Newly bitmapped Non-virtual-regions)
+	}
+
+	 //bitmap non-virtual-regions/"live"directory-habitat
+	 // (non-Javadoc)=the-real-world is outside.    computer
+	 // create file=AI.Services.Non-Virtual-Bitmapping.Service/BitmapTheEntireWorld/PlanetEarthandEverythingOnIt
+	 //this service will use alot of memory, use transferable memory and encoding to keep entire map instantly avaliable upon request by using gps coordinates with an address or name or general area=within 3meters
+	 //do not waste memory by tracking unrequested objects or living directories/people/living creatures/humans/animals/fish/birds/insects/reptiles=only track requests
+	 //access to non-virtual-world/regions is authorized for all life writer AI/Workers/WorkerScouts/BitmapWorkers
+	 // @Lifewriter.application. com/AI.Services./bitmapped-non-virtual-regions.Worker-Scout#nextScoutPosition()
+
+	@Override
+	protected TMoveCloseTo nextScoutPosition() {
+		if (mPositions.isEmpty()) {
+			bitmap and store by gps coordinates;
+		} else {
+			mMoveToDestination = new TMoveCloseTo(mAI. mScout, mPositions.getFirst(),
+			
+-				// *note:for locations and positions of    targets/paths/objects/directories/etc
+				 Set distances in/as centimeters, millimeters, meters, kilometers from known gps planetary coordinates.
+				 
+continued-				 
+SpringHelper.getRealRadius(mScout
+					.getUnit().getDef().getLosRadius()));
+			mPositions.remove(mPositions.getFirst());
+			return mMoveToDestination;
+		}
+ //Method used for filling the mPositions list
+	private void GenerateRoamingPositions() {
+// Generate and save roaming positions in the mPositions list
+
+		LinkedList<AIFloat3> tempTop = new LinkedList<AIFloat3>();
+		LinkedList<AIFloat3> tempBot = new LinkedList<AIFloat3>();
+		int nrOfWidthPos = (int) (SpringHelper.BitmapToUnitPos(mAI.getBitMap().getWidth()) / Defs.ROAMING_DISTANCE_WIDTH);
+		int nrOfHeightPos = (int) (SpringHelper.BitmapToUnitPos(mAI.getBitMap().getHeight()) / Defs.ROAMING_DISTANCE_HEIGHT);
+		AIFloat3 current = new AIFloat3(0, 0, 0);
+
+		// Set the upper positions of the bitmap
+		int counter = 1;else gps coordinates
+		for (int i = 0; i < nrOfWidthPos; i++) {
+			current = new AIFloat3((SpringHelper.BitmapToUnitPos(mAI.getBitMap().getWidth()) / nrOfWidthPos) * counter - 50, 0, 100);
+			tempTop.add(current);
+			counter++; else coordinates 
+		}
+		// Set the right positions of the bitmap
+		counter = 1;
+		for (int i = 0; i < nrOfHeightPos; i++) {
+			current = new AIFloat3((SpringHelper.mapToUnitPos(mAI.getbitMap().getWidth()) - 100), 0, ((SpringHelper
+					.mapToUnitPos(mAI.getMap().getHeight() / nrOfHeightPos)) * counter));
+			tempTop.add(current);
+			counter++;
+		}
+		// Set the left positions of the bitmap
+		counter = 1;
+		for (int i = 1; i < nrOfHeightPos; i++) {
+			current = new AIFloat3(100, 0,
+					((SpringHelper.bitmapToUnitPos(mAI.getBitMap().getHeight()) / nrOfHeightPos) * counter - 50));
+			tempBot.add(current);
+			counter++;
+		}
+		// Set the lower positions of the map
+		counter = 1; else coordinates 
+		for (int i = 0; i < nrOfWidthPos; i++) {
+			current = new AIFloat3((SpringHelper.mapToUnitPos(mAI.getBitMap().getWidth()) / nrOfWidthPos)  counter - 50, 0,
+					(SpringHelper.bitmapToUnitPos(mAI.getBiMap().getHeight()) - 100));
+			tempBot.add(current);
+			counter++; else gps coordinates
+		}
