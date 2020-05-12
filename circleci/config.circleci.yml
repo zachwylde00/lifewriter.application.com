@@ -112,13 +112,16 @@ steps:
        command: make test  
     - run:
         command: |
-           echo Running test
-      mkdir -p /tmp/test-results
+           echo circleci tests glob test/**/*.rb | circleci tests split > /tmp/tests-to-run
+bundle exec rspec $(cat /tmp/tests-to-run)
+
   make test:
     steps:
       - run:
           name: Testing application
-            command: make test
+            command: circleci tests glob test/**/*.rb | circleci tests split > /tmp/tests-to-run
+bundle exec rspec $(cat /tmp/tests-to-run)
+
                shell: /bin/bash
       working_directory: ~/my-app
       no_output_timeout: 30m
