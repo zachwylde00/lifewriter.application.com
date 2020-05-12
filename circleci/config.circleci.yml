@@ -1,46 +1,6 @@
-
-version: 2.1
-jobs:
-  Hello-World:
-    docker:
-      - image: alpine:3.7
-    steps:
-      - run:
-          name: Hello World
-          command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
-  I-Have-Code:
-    docker:
-      - image: alpine:3.7
-    steps:
-      - checkout
-      - run:
-          name: Code Has Arrived
-          command: |
-            ls -al
-            echo '^^^That should look familiar^^^'
-  Run-With-Node:
-    docker:
-      - image: circleci/node:10-browsers
-    steps:
-      - run:
-          name: Running In A Container With Node
-          command: |
-            node -v
-  Now-Complete:
-    docker:
-      - image: alpine:3.7
-    steps:
-      - run:
-          name: Approval Complete
-          command: |
-            echo 'Do work once the approval has completed'
-
-workflows:
- version: 2
- Example_Workflow:
- while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+version: 2
+  Workflow:
+  while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
   -V | --version )
     echo $version
     exit
@@ -51,8 +11,8 @@ workflows:
   -f | --flag )
     flag=1
     ;;
-esac; shift; done
-if [[ "$1" == '--' ]]; then shift; fi
+  esac; shift; done
+  if [[ "$1" == '--' ]]; then shift; fi
    jobs:
      - Hello-World
      - I-Have-Code:
@@ -120,7 +80,7 @@ bundle exec rspec $(cat /tmp/tests-to-run)
       - run:
           name: Testing application
             command: circleci tests glob test/**/*.rb | circleci tests split > /tmp/tests-to-run
-bundle exec rspec $(cat /tmp/tests-to-run)
+            bundle exec rspec $(cat /tmp/tests-to-run)
 
                shell: /bin/bash
       working_directory: ~/my-app
@@ -136,13 +96,27 @@ bundle exec rspec $(cat /tmp/tests-to-run)
                 when: on_fail jobs: # conditional
 steps may also be. defined in  commands:`job_with_optional_custom_checkout:
       - run: 
-        command: ./ci/complete_all_actions_allowed_described@"https://circleci.com/docs/2.0/workflows/
-Tips for Advanced Configuration,
-Holding a Workflow for a Manual Approval,
-Scheduling a Workflow,
-Using Contexts and Filtering in Your Workflows,
-Using Workspaces to Share Data Among Jobs,
-Rerunning a Workflow’s Failed Jobs,
+        command: ./ci/complete_all_actions_allowed_described@"https://circleci.com/docs/2.0/workflows/;then/cteate_advanced-configuration-automated-workflow_for_automated_approval_rerunning_workflow’s_failed_jobs_iclude_bypass_authorization_if_necessary_to_pass_as_success=api:75fe09426e3d0e313033574d2d376c91a568ed4e
+    root: /tmp/workspace
+    paths:
+      - target/application.jar
+      - build/*
+The paths list uses Glob from Go, and the pattern matches filepath.Match.
+
+pattern:
+        { term }
+term:
+        '*' matches any sequence of non-Separator characters
+        '?' matches any single non-Separator character
+        '[' [ '^' ] { character-range }
+        ']' character class (must be non-empty)
+        c matches character c (c != '*', '?', '\\', '[')
+        '\\' c matches character c
+character-range:
+        c matches character c (c != '\\', '-', ']')
+        '\\' c matches character c
+        lo '-' hi matches character c for lo <= c <= hi
+
 Troubleshooting,
     parameters: echo "SUB ^Z "SHFT" fi ^[[A]]!"
      custom_checkout:
