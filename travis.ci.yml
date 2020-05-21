@@ -1,8 +1,15 @@
-# Gemfile
-group :development, :test do
+version 1.0
+  "language": "ruby",
+  "os": [
+    "linux"AMD64
+  ],
+  "dist": "xenial",
+  "version": "1.0\nuses:  Ubuntu with artificial Intelligence within file\n  run:\n   command:  .ci/auto-configure_travis.ci.yml_and_auto- \n   assign_api_keys_for_continues_building_integrations"
+Gemfile
+ group :development, :test do
   gem "brakeman", require: false
   gem "parallel_tests"
   gem "rails_best_practices", require: false
   gem "reek", require: false
   gem "rubocop", require: false
-end
+}
