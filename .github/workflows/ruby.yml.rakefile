@@ -31,3 +31,27 @@ jobs:
       run: bundle install
     - name: Run tests
       run: bundle exec rake
+
+# Rakefile
+# frozen_string_literal: true
+
+require_relative "config/application"
+require "rubocop/rake_task"
+
+Rails.application.load_tasks
+Rake::Task["default"].clear
+Rake::Task["test"].clear
+
+task :default do
+  Rake::Task["brakeman:check"].invoke
+  Rake::Task["parallel:test"].invoke
+
+  RuboCop::RakeTask.new(:rubocop)
+  Rake::Task["rubocop"].invoke
+  Rake::Task["rails_best_practices:run"].invoke
+  Rake::Task["reek:run"].invoke
+end
+
+task :test do
+  Rake::Task["parallel:test"].invoke
+end
