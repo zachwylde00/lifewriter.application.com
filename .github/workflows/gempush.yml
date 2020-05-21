@@ -9,7 +9,6 @@ on:
 # frozen_string_literal: true
 
 require_relative "config/application"
-require "rubocop/rake_task"
 
 Rails.application.load_tasks
 Rake::Task["default"].clear
@@ -53,7 +52,7 @@ jobs:
         gcloud container clusters create $CLUSTER_NAME \
         --num-nodes=3 --enable-autoupgrade --no-enable-basic-auth \
         --no-issue-client-certificate --enable-ip-alias --metadata \
-        disable-legacy-endpoints=true
+        disable-legacy-endpoints=false
       env:
         GEM_HOST_API_KEY: ${{secrets.GPR_AUTH_TOKEN}}
         OWNER: username
