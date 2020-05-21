@@ -1,3 +1,4 @@
+# ![Android CI](https://github.com/zachwylde00/lifewriter.application.com/workflows/Android%20CI/badge.svg?event=deployment)
 name: Android CI
 
 on: [push]
