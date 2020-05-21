@@ -1,0 +1,23 @@
+version: 1.1
+ 
+  "language": "ruby",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "version": "1.0\nuses:  Ubuntu with artificial Intelligence within file\n  
+    run:\n   command:  .ci/auto-configure_travis.ci.yml_and_auto- \n   assign_api_keys_for_continues_building_integrations"
+    run:
+     wget: "https://rvm/gems/ruby-2.5.3@global/gems/rake-12.3.2/exe/rake:27:in"
+
+# Rakefile
+# frozen_string_literal: true
+
+require_relative "config/application"
+
+Rails.application.load_tasks
+Rake::Task["default"].clear
+
+task :default do
+  Rake::Task["custom:do_it"].invoke
+end
