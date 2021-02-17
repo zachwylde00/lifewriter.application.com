@@ -1,2 +1,6 @@
 theme: jekyll-theme-time-machine
 
+- name: Sentry Release
+  uses: getsentry/action-release@v1.1.5
+
+
